@@ -1,0 +1,1 @@
+var index = {"Tags":{"single word":["specs/MoneyTransferWebAppTestScenarios.html"]},"Specs":{"Specification Heading":["specs/MoneyTransferWebAppTestScenarios.html"]}};
