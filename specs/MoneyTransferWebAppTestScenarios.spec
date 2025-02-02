@@ -4,13 +4,14 @@ Para Transfer Uygulaması Test Senaryoları
 
 Para Transfer Uygulamasının başarılı şekilde açılması
 -------------------------------------------------------------------------------------------------------------------
-Tags: start,test1
+Tags: start,smokeTest
 * Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır.
 * Para Transfer Uygulaması başlatma sayfası açılır.
 * Para Transfer Uygulaması başarılı şekilde açıldığı doğrulanır.
 
 Para Transfer Uygulamasında "Checking Account" (Vadesiz Hesap) tipinde hesap isminin başarılı şekilde güncellenmesi
 -------------------------------------------------------------------------------------------------------------------
+Tags: updateAccountName,smokeTest
 
 * Checking Account (Vadesiz Hesap) ismin düzenlemesi için hesap düzenleme butonuna tıklanır.
 * Açılan pencerede hesap ismi yeni hesap ismi rastgele değer olarak değiştirilmek üzere metin kutusuna yazılır.
@@ -18,7 +19,7 @@ Para Transfer Uygulamasında "Checking Account" (Vadesiz Hesap) tipinde hesap is
 * Hesap isminin yeni hesap ismi olarak güncellendiği doğrulanır.
 Para Transfer Uygulamasında hesaplar arasında para transferi yapılması
 -------------------------------------------------------------------------------------------------------------------
-Tags: moneytranfer,test1
+Tags: moneyTranferCheck,smokeTest
 * Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır.
 * Açılan Para Transferi pencerisinde miktar metin kutusuna yazılır.
 * Gönder butonuna tıklanır.
@@ -26,7 +27,7 @@ Tags: moneytranfer,test1
 
 Para Transfer Uygulamasında kredi kartı ile para yatırma
 -------------------------------------------------------------------------------------------------------------------
-Tags: addmoney, test
+Tags: addMoneyCreditCard, smokeTest
 
 * Mevcut açık hesaptaki para miktarı kaydedilir ve Para Ekleme butonuna tıklanır.
 * Para Ekleme penceresindeki kredi kartı numara alanı test verisi ile doldurulur.
@@ -39,7 +40,7 @@ Tags: addmoney, test
 
 Para Transfer Uygulamasında hesap bakiyesini sıfırın altına düşmesi kontrolü
 -------------------------------------------------------------------------------------------------------------------
-Tags: addmoney, test
+Tags: checkMoneyNegetive, test
 * Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır.
 * Açılan Para Transferi pencerisinde miktar metin kutusuna mevcut para miktarında fazla bir değer yazılır.
 * Gönder butonuna tıklanır.
