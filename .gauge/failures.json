@@ -6,8 +6,6 @@
 		"--simple-console"
 	],
 	"FailedItems": [
-		"specs/MoneyTransferWebAppTestScenarios.spec:20",
-		"specs/MoneyTransferWebAppTestScenarios.spec:28",
-		"specs/MoneyTransferWebAppTestScenarios.spec:41"
+		"specs/MoneyTransferWebAppTestScenarios.spec"
 	]
 }

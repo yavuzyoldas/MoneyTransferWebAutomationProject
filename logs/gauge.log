@@ -12848,3 +12848,830 @@ Total time taken: 55.228s
 02-02-2025 23:11:18.882 [Gauge] [INFO] 
 Total time taken: 57.374s
 02-02-2025 23:11:18.882 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+02-02-2025 23:42:07.010 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Applications/IntelliJ IDEA CE.app/Contents/Projects/MoneyTransferWebAutomationProject/.gauge/screenshots
+02-02-2025 23:42:07.011 [Gauge] [DEBUG] Plugin java is already installed.
+02-02-2025 23:42:07.011 [Gauge] [DEBUG] Plugin html-report is already installed.
+02-02-2025 23:42:07.012 [Gauge] [DEBUG] Parsing started.
+02-02-2025 23:42:07.012 [Gauge] [DEBUG] Started concepts parsing.
+02-02-2025 23:42:07.015 [Gauge] [DEBUG] 0 concepts parsing completed.
+02-02-2025 23:42:07.016 [Gauge] [DEBUG] Started specifications parsing.
+02-02-2025 23:42:07.017 [Gauge] [DEBUG] 1 specifications parsing completed.
+02-02-2025 23:42:07.017 [Gauge] [DEBUG] Parsing completed.
+02-02-2025 23:42:07.019 [Gauge] [DEBUG] Starting java runner
+02-02-2025 23:42:07.751 [Gauge] [DEBUG] Established connection to runner.
+02-02-2025 23:42:07.751 [Gauge] [DEBUG] Validation started.
+02-02-2025 23:42:08.143 [Gauge] [DEBUG] Checking updates...
+02-02-2025 23:42:08.144 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:42:08.679 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:42:09.098 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:42:09.206 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:42:09.294 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:42:09.386 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:42:09.468 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:42:09.526 [java] [INFO] WARNING: An illegal reflective access operation has occurred
+02-02-2025 23:42:09.526 [java] [INFO] WARNING: Illegal reflective access by com.google.protobuf.UnsafeUtil (file:/Users/n100523/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar) to field java.nio.Buffer.address
+02-02-2025 23:42:09.526 [java] [INFO] WARNING: Please consider reporting this to the maintainers of com.google.protobuf.UnsafeUtil
+02-02-2025 23:42:09.526 [java] [INFO] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+02-02-2025 23:42:09.526 [java] [INFO] WARNING: All illegal access operations will be denied in a future release
+02-02-2025 23:42:09.531 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Tranferi İşlemleri listesinde işlemin oluduğu ve transfer edilen miktar kadar paranın hesaptan eksildiği doğrulanır."}
+02-02-2025 23:42:09.531 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Tranferi İşlemleri listesinde işlemin oluduğu ve transfer edilen miktar kadar paranın hesaptan eksildiği doğrulanır."  parameterizedStepValue:"Para Tranferi İşlemleri listesinde işlemin oluduğu ve transfer edilen miktar kadar paranın hesaptan eksildiği doğrulanır."}}
+02-02-2025 23:42:09.536 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Ekleme butonuna tıklanır."}
+02-02-2025 23:42:09.536 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Ekleme butonuna tıklanır."  parameterizedStepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Ekleme butonuna tıklanır."}}
+02-02-2025 23:42:09.536 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Açılan Para Transferi pencerisinde miktar metin kutusuna yazılır."}
+02-02-2025 23:42:09.537 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna yazılır."  parameterizedStepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna yazılır."}}
+02-02-2025 23:42:09.537 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Gönder butonuna tıklanır."}
+02-02-2025 23:42:09.537 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Gönder butonuna tıklanır."  parameterizedStepValue:"Gönder butonuna tıklanır."}}
+02-02-2025 23:42:09.537 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Hesap isminin yeni hesap ismi olarak güncellendiği doğrulanır."}
+02-02-2025 23:42:09.537 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Hesap isminin yeni hesap ismi olarak güncellendiği doğrulanır."  parameterizedStepValue:"Hesap isminin yeni hesap ismi olarak güncellendiği doğrulanır."}}
+02-02-2025 23:42:09.538 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır."}
+02-02-2025 23:42:09.538 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır."  parameterizedStepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır."}}
+02-02-2025 23:42:09.538 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Açılan pencerede hesap ismi yeni hesap ismi rastgele değer olarak değiştirilmek üzere metin kutusuna yazılır."}
+02-02-2025 23:42:09.539 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Açılan pencerede hesap ismi yeni hesap ismi rastgele değer olarak değiştirilmek üzere metin kutusuna yazılır."  parameterizedStepValue:"Açılan pencerede hesap ismi yeni hesap ismi rastgele değer olarak değiştirilmek üzere metin kutusuna yazılır."}}
+02-02-2025 23:42:09.539 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Penceredeki güncelleme butonuna tıklanır."}
+02-02-2025 23:42:09.539 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Penceredeki güncelleme butonuna tıklanır."  parameterizedStepValue:"Penceredeki güncelleme butonuna tıklanır."}}
+02-02-2025 23:42:09.539 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Açılan Para Transferi pencerisinde miktar metin kutusuna mevcut para miktarında fazla bir değer yazılır."}
+02-02-2025 23:42:09.539 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna mevcut para miktarında fazla bir değer yazılır."  parameterizedStepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna mevcut para miktarında fazla bir değer yazılır."}}
+02-02-2025 23:42:09.539 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Transfer Uygulaması başarılı şekilde açıldığı doğrulanır."}
+02-02-2025 23:42:09.539 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Transfer Uygulaması başarılı şekilde açıldığı doğrulanır."  parameterizedStepValue:"Para Transfer Uygulaması başarılı şekilde açıldığı doğrulanır."}}
+02-02-2025 23:42:09.540 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Checking Account (Vadesiz Hesap) ismin düzenlemesi için hesap düzenleme butonuna tıklanır."}
+02-02-2025 23:42:09.540 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Checking Account (Vadesiz Hesap) ismin düzenlemesi için hesap düzenleme butonuna tıklanır."  parameterizedStepValue:"Checking Account (Vadesiz Hesap) ismin düzenlemesi için hesap düzenleme butonuna tıklanır."}}
+02-02-2025 23:42:09.540 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Tranferinin gerçekleşmediği ve hesap miktarını aynı kaldığı görülür."}
+02-02-2025 23:42:09.540 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Tranferinin gerçekleşmediği ve hesap miktarını aynı kaldığı görülür."  parameterizedStepValue:"Para Tranferinin gerçekleşmediği ve hesap miktarını aynı kaldığı görülür."}}
+02-02-2025 23:42:09.540 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Transfer Uygulaması başlatma sayfası açılır."}
+02-02-2025 23:42:09.540 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Transfer Uygulaması başlatma sayfası açılır."  parameterizedStepValue:"Para Transfer Uygulaması başlatma sayfası açılır."}}
+02-02-2025 23:42:09.540 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kredi kartı numara alanı test verisi ile doldurulur."}
+02-02-2025 23:42:09.540 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kredi kartı numara alanı test verisi ile doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kredi kartı numara alanı test verisi ile doldurulur."}}
+02-02-2025 23:42:09.540 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır."}
+02-02-2025 23:42:09.540 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır."  parameterizedStepValue:"Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır."}}
+02-02-2025 23:42:09.541 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kredi kartı sahibi alanı doldurulur."}
+02-02-2025 23:42:09.541 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kredi kartı sahibi alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kredi kartı sahibi alanı doldurulur."}}
+02-02-2025 23:42:09.541 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kartı son kullanma tarihi alanı doldurulur."}
+02-02-2025 23:42:09.541 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kartı son kullanma tarihi alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kartı son kullanma tarihi alanı doldurulur."}}
+02-02-2025 23:42:09.541 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kredi kartı CVV alanı doldurulur."}
+02-02-2025 23:42:09.541 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kredi kartı CVV alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kredi kartı CVV alanı doldurulur."}}
+02-02-2025 23:42:09.541 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki miktar alanı doldurulur."}
+02-02-2025 23:42:09.541 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki miktar alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki miktar alanı doldurulur."}}
+02-02-2025 23:42:09.542 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Ekle butonuna tıklanır."}
+02-02-2025 23:42:09.542 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Ekle butonuna tıklanır."  parameterizedStepValue:"Ekle butonuna tıklanır."}}
+02-02-2025 23:42:09.542 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme işleminin işlemler listesinde olduğu ve eklenen paranın hesaba eklendiği doğrulanır."}
+02-02-2025 23:42:09.542 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme işleminin işlemler listesinde olduğu ve eklenen paranın hesaba eklendiği doğrulanır."  parameterizedStepValue:"Para Ekleme işleminin işlemler listesinde olduğu ve eklenen paranın hesaba eklendiği doğrulanır."}}
+02-02-2025 23:42:10.609 [Gauge] [DEBUG] Validation completed.
+02-02-2025 23:42:10.610 [Gauge] [DEBUG] Run started
+02-02-2025 23:42:10.610 [Gauge] [DEBUG] Starting Html Report plugin
+02-02-2025 23:42:10.650 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+02-02-2025 23:42:10.650 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 53828
+02-02-2025 23:42:10.656 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 53828
+02-02-2025 23:42:10.656 [Gauge] [DEBUG] Initialising suite data store.
+02-02-2025 23:42:10.673 [java] [INFO] driver == null
+02-02-2025 23:42:10.677 [java] [INFO] SLF4J: No SLF4J providers were found.
+02-02-2025 23:42:10.678 [java] [INFO] SLF4J: Defaulting to no-operation (NOP) logger implementation
+02-02-2025 23:42:10.678 [java] [INFO] SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+02-02-2025 23:42:10.908 [java] [INFO] Feb 02, 2025 11:42:10 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+02-02-2025 23:42:10.908 [java] [INFO] INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+02-02-2025 23:42:10.941 [java] [INFO] log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+02-02-2025 23:42:10.941 [java] [INFO] log4j:WARN Please initialize the log4j system properly.
+02-02-2025 23:42:10.941 [java] [INFO] log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+02-02-2025 23:42:19.135 [java] [INFO] Feb 02, 2025 11:42:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+02-02-2025 23:42:19.135 [java] [INFO] WARNING: Unable to find CDP implementation matching 132
+02-02-2025 23:42:19.135 [java] [INFO] Feb 02, 2025 11:42:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+02-02-2025 23:42:19.135 [java] [INFO] WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.10.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+02-02-2025 23:42:19.174 [java] [INFO] Rapor yolu: /Applications/IntelliJ IDEA CE.app/Contents/Projects/MoneyTransferWebAutomationProject/reports/extent-report.html
+02-02-2025 23:42:43.124 [java] [INFO] flushReport1
+02-02-2025 23:42:43.124 [java] [INFO] flushReport2
+02-02-2025 23:42:43.332 [java] [INFO] flushReport
+02-02-2025 23:42:53.846 [java] [INFO] flushReport1
+02-02-2025 23:42:53.847 [java] [INFO] flushReport2
+02-02-2025 23:42:53.859 [java] [INFO] flushReport
+02-02-2025 23:42:58.758 [java] [INFO] Transfer Money Check
+02-02-2025 23:42:59.127 [java] [INFO] 2025-02-02 23:42:59.127 java[15529:574047] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+02-02-2025 23:42:59.940 [java] [INFO] flushReport1
+02-02-2025 23:42:59.940 [java] [INFO] flushReport2
+02-02-2025 23:42:59.958 [java] [INFO] flushReport
+02-02-2025 23:43:02.146 [java] [INFO] flushReport1
+02-02-2025 23:43:02.146 [java] [INFO] flushReport2
+02-02-2025 23:43:02.151 [java] [INFO] flushReport
+02-02-2025 23:43:04.067 [java] [INFO] flushReport1
+02-02-2025 23:43:04.067 [java] [INFO] flushReport2
+02-02-2025 23:43:04.074 [java] [INFO] flushReport
+02-02-2025 23:43:04.366 [html-report] [DEBUG] Transformed SuiteResult to report structure
+02-02-2025 23:43:04.400 [html-report] [INFO] Successfully generated html-report to => /Applications/IntelliJ IDEA CE.app/Contents/Projects/MoneyTransferWebAutomationProject/reports/html-report/index.html
+02-02-2025 23:43:04.400 [html-report] [DEBUG] Done generating HTML report using theme from /Users/n100523/.gauge/plugins/html-report/4.3.1/themes/default
+02-02-2025 23:43:04.400 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+02-02-2025 23:43:04.403 [Gauge] [DEBUG] Sending kill message to runner.
+02-02-2025 23:43:04.862 [Gauge] [INFO] Closing connection [127.0.0.1:53825] cause: EOF
+02-02-2025 23:43:04.907 [Gauge] [DEBUG] Runner with PID:15527 has exited
+02-02-2025 23:43:04.908 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+02-02-2025 23:43:04.908 [Gauge] [INFO] Scenarios:	5 executed	2 passed	3 failed	0 skipped
+02-02-2025 23:43:04.908 [Gauge] [INFO] 
+Total time taken: 53.708s
+02-02-2025 23:43:04.908 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+02-02-2025 23:43:25.291 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Applications/IntelliJ IDEA CE.app/Contents/Projects/MoneyTransferWebAutomationProject/.gauge/screenshots
+02-02-2025 23:43:25.292 [Gauge] [DEBUG] Plugin java is already installed.
+02-02-2025 23:43:25.292 [Gauge] [DEBUG] Plugin html-report is already installed.
+02-02-2025 23:43:25.292 [Gauge] [DEBUG] Parsing started.
+02-02-2025 23:43:25.293 [Gauge] [DEBUG] Started concepts parsing.
+02-02-2025 23:43:25.296 [Gauge] [DEBUG] 0 concepts parsing completed.
+02-02-2025 23:43:25.296 [Gauge] [DEBUG] Started specifications parsing.
+02-02-2025 23:43:25.298 [Gauge] [DEBUG] 1 specifications parsing completed.
+02-02-2025 23:43:25.298 [Gauge] [DEBUG] Parsing completed.
+02-02-2025 23:43:25.299 [Gauge] [DEBUG] Starting java runner
+02-02-2025 23:43:25.454 [Gauge] [DEBUG] Established connection to runner.
+02-02-2025 23:43:25.454 [Gauge] [DEBUG] Validation started.
+02-02-2025 23:43:25.955 [Gauge] [DEBUG] Checking updates...
+02-02-2025 23:43:25.955 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:43:26.286 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:43:26.356 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:43:26.432 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:43:26.547 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:43:26.675 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:43:26.835 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:43:27.403 [java] [INFO] WARNING: An illegal reflective access operation has occurred
+02-02-2025 23:43:27.403 [java] [INFO] WARNING: Illegal reflective access by com.google.protobuf.UnsafeUtil (file:/Users/n100523/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar) to field java.nio.Buffer.address
+02-02-2025 23:43:27.403 [java] [INFO] WARNING: Please consider reporting this to the maintainers of com.google.protobuf.UnsafeUtil
+02-02-2025 23:43:27.403 [java] [INFO] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+02-02-2025 23:43:27.403 [java] [INFO] WARNING: All illegal access operations will be denied in a future release
+02-02-2025 23:43:27.408 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Tranferi İşlemleri listesinde işlemin oluduğu ve transfer edilen miktar kadar paranın hesaptan eksildiği doğrulanır."}
+02-02-2025 23:43:27.408 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Tranferi İşlemleri listesinde işlemin oluduğu ve transfer edilen miktar kadar paranın hesaptan eksildiği doğrulanır."  parameterizedStepValue:"Para Tranferi İşlemleri listesinde işlemin oluduğu ve transfer edilen miktar kadar paranın hesaptan eksildiği doğrulanır."}}
+02-02-2025 23:43:27.412 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Ekleme butonuna tıklanır."}
+02-02-2025 23:43:27.412 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Ekleme butonuna tıklanır."  parameterizedStepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Ekleme butonuna tıklanır."}}
+02-02-2025 23:43:27.413 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Açılan Para Transferi pencerisinde miktar metin kutusuna yazılır."}
+02-02-2025 23:43:27.413 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna yazılır."  parameterizedStepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna yazılır."}}
+02-02-2025 23:43:27.413 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Gönder butonuna tıklanır."}
+02-02-2025 23:43:27.413 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Gönder butonuna tıklanır."  parameterizedStepValue:"Gönder butonuna tıklanır."}}
+02-02-2025 23:43:27.413 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Hesap isminin yeni hesap ismi olarak güncellendiği doğrulanır."}
+02-02-2025 23:43:27.413 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Hesap isminin yeni hesap ismi olarak güncellendiği doğrulanır."  parameterizedStepValue:"Hesap isminin yeni hesap ismi olarak güncellendiği doğrulanır."}}
+02-02-2025 23:43:27.413 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır."}
+02-02-2025 23:43:27.413 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır."  parameterizedStepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır."}}
+02-02-2025 23:43:27.413 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Açılan pencerede hesap ismi yeni hesap ismi rastgele değer olarak değiştirilmek üzere metin kutusuna yazılır."}
+02-02-2025 23:43:27.413 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Açılan pencerede hesap ismi yeni hesap ismi rastgele değer olarak değiştirilmek üzere metin kutusuna yazılır."  parameterizedStepValue:"Açılan pencerede hesap ismi yeni hesap ismi rastgele değer olarak değiştirilmek üzere metin kutusuna yazılır."}}
+02-02-2025 23:43:27.413 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Penceredeki güncelleme butonuna tıklanır."}
+02-02-2025 23:43:27.413 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Penceredeki güncelleme butonuna tıklanır."  parameterizedStepValue:"Penceredeki güncelleme butonuna tıklanır."}}
+02-02-2025 23:43:27.413 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Açılan Para Transferi pencerisinde miktar metin kutusuna mevcut para miktarında fazla bir değer yazılır."}
+02-02-2025 23:43:27.413 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna mevcut para miktarında fazla bir değer yazılır."  parameterizedStepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna mevcut para miktarında fazla bir değer yazılır."}}
+02-02-2025 23:43:27.414 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Transfer Uygulaması başarılı şekilde açıldığı doğrulanır."}
+02-02-2025 23:43:27.414 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Transfer Uygulaması başarılı şekilde açıldığı doğrulanır."  parameterizedStepValue:"Para Transfer Uygulaması başarılı şekilde açıldığı doğrulanır."}}
+02-02-2025 23:43:27.414 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Checking Account (Vadesiz Hesap) ismin düzenlemesi için hesap düzenleme butonuna tıklanır."}
+02-02-2025 23:43:27.414 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Checking Account (Vadesiz Hesap) ismin düzenlemesi için hesap düzenleme butonuna tıklanır."  parameterizedStepValue:"Checking Account (Vadesiz Hesap) ismin düzenlemesi için hesap düzenleme butonuna tıklanır."}}
+02-02-2025 23:43:27.414 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Tranferinin gerçekleşmediği ve hesap miktarını aynı kaldığı görülür."}
+02-02-2025 23:43:27.414 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Tranferinin gerçekleşmediği ve hesap miktarını aynı kaldığı görülür."  parameterizedStepValue:"Para Tranferinin gerçekleşmediği ve hesap miktarını aynı kaldığı görülür."}}
+02-02-2025 23:43:27.414 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Transfer Uygulaması başlatma sayfası açılır."}
+02-02-2025 23:43:27.414 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Transfer Uygulaması başlatma sayfası açılır."  parameterizedStepValue:"Para Transfer Uygulaması başlatma sayfası açılır."}}
+02-02-2025 23:43:27.414 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kredi kartı numara alanı test verisi ile doldurulur."}
+02-02-2025 23:43:27.414 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kredi kartı numara alanı test verisi ile doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kredi kartı numara alanı test verisi ile doldurulur."}}
+02-02-2025 23:43:27.414 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır."}
+02-02-2025 23:43:27.414 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır."  parameterizedStepValue:"Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır."}}
+02-02-2025 23:43:27.415 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kredi kartı sahibi alanı doldurulur."}
+02-02-2025 23:43:27.415 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kredi kartı sahibi alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kredi kartı sahibi alanı doldurulur."}}
+02-02-2025 23:43:27.415 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kartı son kullanma tarihi alanı doldurulur."}
+02-02-2025 23:43:27.415 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kartı son kullanma tarihi alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kartı son kullanma tarihi alanı doldurulur."}}
+02-02-2025 23:43:27.415 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kredi kartı CVV alanı doldurulur."}
+02-02-2025 23:43:27.415 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kredi kartı CVV alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kredi kartı CVV alanı doldurulur."}}
+02-02-2025 23:43:27.415 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki miktar alanı doldurulur."}
+02-02-2025 23:43:27.415 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki miktar alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki miktar alanı doldurulur."}}
+02-02-2025 23:43:27.415 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Ekle butonuna tıklanır."}
+02-02-2025 23:43:27.415 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Ekle butonuna tıklanır."  parameterizedStepValue:"Ekle butonuna tıklanır."}}
+02-02-2025 23:43:27.415 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme işleminin işlemler listesinde olduğu ve eklenen paranın hesaba eklendiği doğrulanır."}
+02-02-2025 23:43:27.415 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme işleminin işlemler listesinde olduğu ve eklenen paranın hesaba eklendiği doğrulanır."  parameterizedStepValue:"Para Ekleme işleminin işlemler listesinde olduğu ve eklenen paranın hesaba eklendiği doğrulanır."}}
+02-02-2025 23:43:28.472 [Gauge] [DEBUG] Validation completed.
+02-02-2025 23:43:28.472 [Gauge] [DEBUG] Run started
+02-02-2025 23:43:28.473 [Gauge] [DEBUG] Starting Html Report plugin
+02-02-2025 23:43:28.515 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+02-02-2025 23:43:28.515 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 53861
+02-02-2025 23:43:28.519 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 53861
+02-02-2025 23:43:28.519 [Gauge] [DEBUG] Initialising suite data store.
+02-02-2025 23:43:28.533 [java] [INFO] driver == null
+02-02-2025 23:43:28.537 [java] [INFO] SLF4J: No SLF4J providers were found.
+02-02-2025 23:43:28.537 [java] [INFO] SLF4J: Defaulting to no-operation (NOP) logger implementation
+02-02-2025 23:43:28.537 [java] [INFO] SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+02-02-2025 23:43:28.735 [java] [INFO] Feb 02, 2025 11:43:28 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+02-02-2025 23:43:28.735 [java] [INFO] INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+02-02-2025 23:43:28.767 [java] [INFO] log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+02-02-2025 23:43:28.767 [java] [INFO] log4j:WARN Please initialize the log4j system properly.
+02-02-2025 23:43:28.767 [java] [INFO] log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+02-02-2025 23:43:34.564 [java] [INFO] Feb 02, 2025 11:43:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+02-02-2025 23:43:34.564 [java] [INFO] WARNING: Unable to find CDP implementation matching 132
+02-02-2025 23:43:34.564 [java] [INFO] Feb 02, 2025 11:43:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+02-02-2025 23:43:34.564 [java] [INFO] WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.10.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+02-02-2025 23:43:34.575 [java] [INFO] Rapor yolu: /Applications/IntelliJ IDEA CE.app/Contents/Projects/MoneyTransferWebAutomationProject/reports/extent-report.html
+02-02-2025 23:43:58.112 [java] [INFO] flushReport1
+02-02-2025 23:43:58.112 [java] [INFO] flushReport2
+02-02-2025 23:43:58.331 [java] [INFO] flushReport
+02-02-2025 23:44:10.545 [java] [INFO] flushReport1
+02-02-2025 23:44:10.545 [java] [INFO] flushReport2
+02-02-2025 23:44:10.560 [java] [INFO] flushReport
+02-02-2025 23:44:18.132 [java] [INFO] Transfer Money Check
+02-02-2025 23:44:18.591 [java] [INFO] 2025-02-02 23:44:18.590 java[15587:575828] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+02-02-2025 23:44:19.466 [java] [INFO] flushReport1
+02-02-2025 23:44:19.466 [java] [INFO] flushReport2
+02-02-2025 23:44:19.514 [java] [INFO] flushReport
+02-02-2025 23:44:21.761 [java] [INFO] flushReport1
+02-02-2025 23:44:21.761 [java] [INFO] flushReport2
+02-02-2025 23:44:21.767 [java] [INFO] flushReport
+02-02-2025 23:44:23.704 [java] [INFO] flushReport1
+02-02-2025 23:44:23.704 [java] [INFO] flushReport2
+02-02-2025 23:44:23.708 [java] [INFO] flushReport
+02-02-2025 23:44:23.931 [html-report] [DEBUG] Transformed SuiteResult to report structure
+02-02-2025 23:44:23.968 [html-report] [INFO] Successfully generated html-report to => /Applications/IntelliJ IDEA CE.app/Contents/Projects/MoneyTransferWebAutomationProject/reports/html-report/index.html
+02-02-2025 23:44:23.968 [html-report] [DEBUG] Done generating HTML report using theme from /Users/n100523/.gauge/plugins/html-report/4.3.1/themes/default
+02-02-2025 23:44:23.968 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+02-02-2025 23:44:23.971 [Gauge] [DEBUG] Sending kill message to runner.
+02-02-2025 23:44:24.387 [Gauge] [INFO] Closing connection [127.0.0.1:53857] cause: EOF
+02-02-2025 23:44:24.475 [Gauge] [DEBUG] Runner with PID:15586 has exited
+02-02-2025 23:44:24.476 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+02-02-2025 23:44:24.476 [Gauge] [INFO] Scenarios:	5 executed	2 passed	3 failed	0 skipped
+02-02-2025 23:44:24.476 [Gauge] [INFO] 
+Total time taken: 55.42s
+02-02-2025 23:44:24.476 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+02-02-2025 23:44:54.361 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Applications/IntelliJ IDEA CE.app/Contents/Projects/MoneyTransferWebAutomationProject/.gauge/screenshots
+02-02-2025 23:44:54.362 [Gauge] [DEBUG] Plugin java is already installed.
+02-02-2025 23:44:54.362 [Gauge] [DEBUG] Plugin html-report is already installed.
+02-02-2025 23:44:54.363 [Gauge] [DEBUG] Parsing started.
+02-02-2025 23:44:54.363 [Gauge] [DEBUG] Started concepts parsing.
+02-02-2025 23:44:54.367 [Gauge] [DEBUG] 0 concepts parsing completed.
+02-02-2025 23:44:54.367 [Gauge] [DEBUG] Started specifications parsing.
+02-02-2025 23:44:54.368 [Gauge] [DEBUG] 1 specifications parsing completed.
+02-02-2025 23:44:54.368 [Gauge] [DEBUG] Parsing completed.
+02-02-2025 23:44:54.368 [Gauge] [DEBUG] Starting java runner
+02-02-2025 23:44:54.544 [Gauge] [DEBUG] Established connection to runner.
+02-02-2025 23:44:54.544 [Gauge] [DEBUG] Validation started.
+02-02-2025 23:44:55.321 [Gauge] [DEBUG] Checking updates...
+02-02-2025 23:44:55.322 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:44:55.654 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:44:55.868 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:44:56.250 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:44:56.333 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:44:56.360 [java] [INFO] WARNING: An illegal reflective access operation has occurred
+02-02-2025 23:44:56.360 [java] [INFO] WARNING: Illegal reflective access by com.google.protobuf.UnsafeUtil (file:/Users/n100523/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar) to field java.nio.Buffer.address
+02-02-2025 23:44:56.360 [java] [INFO] WARNING: Please consider reporting this to the maintainers of com.google.protobuf.UnsafeUtil
+02-02-2025 23:44:56.360 [java] [INFO] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+02-02-2025 23:44:56.360 [java] [INFO] WARNING: All illegal access operations will be denied in a future release
+02-02-2025 23:44:56.364 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Tranferi İşlemleri listesinde işlemin oluduğu ve transfer edilen miktar kadar paranın hesaptan eksildiği doğrulanır."}
+02-02-2025 23:44:56.364 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Tranferi İşlemleri listesinde işlemin oluduğu ve transfer edilen miktar kadar paranın hesaptan eksildiği doğrulanır."  parameterizedStepValue:"Para Tranferi İşlemleri listesinde işlemin oluduğu ve transfer edilen miktar kadar paranın hesaptan eksildiği doğrulanır."}}
+02-02-2025 23:44:56.368 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Ekleme butonuna tıklanır."}
+02-02-2025 23:44:56.368 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Ekleme butonuna tıklanır."  parameterizedStepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Ekleme butonuna tıklanır."}}
+02-02-2025 23:44:56.368 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Açılan Para Transferi pencerisinde miktar metin kutusuna yazılır."}
+02-02-2025 23:44:56.368 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna yazılır."  parameterizedStepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna yazılır."}}
+02-02-2025 23:44:56.368 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Gönder butonuna tıklanır."}
+02-02-2025 23:44:56.368 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Gönder butonuna tıklanır."  parameterizedStepValue:"Gönder butonuna tıklanır."}}
+02-02-2025 23:44:56.369 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Hesap isminin yeni hesap ismi olarak güncellendiği doğrulanır."}
+02-02-2025 23:44:56.369 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Hesap isminin yeni hesap ismi olarak güncellendiği doğrulanır."  parameterizedStepValue:"Hesap isminin yeni hesap ismi olarak güncellendiği doğrulanır."}}
+02-02-2025 23:44:56.369 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır."}
+02-02-2025 23:44:56.369 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır."  parameterizedStepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır."}}
+02-02-2025 23:44:56.369 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Açılan pencerede hesap ismi yeni hesap ismi rastgele değer olarak değiştirilmek üzere metin kutusuna yazılır."}
+02-02-2025 23:44:56.369 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Açılan pencerede hesap ismi yeni hesap ismi rastgele değer olarak değiştirilmek üzere metin kutusuna yazılır."  parameterizedStepValue:"Açılan pencerede hesap ismi yeni hesap ismi rastgele değer olarak değiştirilmek üzere metin kutusuna yazılır."}}
+02-02-2025 23:44:56.369 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Penceredeki güncelleme butonuna tıklanır."}
+02-02-2025 23:44:56.369 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Penceredeki güncelleme butonuna tıklanır."  parameterizedStepValue:"Penceredeki güncelleme butonuna tıklanır."}}
+02-02-2025 23:44:56.369 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Açılan Para Transferi pencerisinde miktar metin kutusuna mevcut para miktarında fazla bir değer yazılır."}
+02-02-2025 23:44:56.369 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna mevcut para miktarında fazla bir değer yazılır."  parameterizedStepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna mevcut para miktarında fazla bir değer yazılır."}}
+02-02-2025 23:44:56.369 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Transfer Uygulaması başarılı şekilde açıldığı doğrulanır."}
+02-02-2025 23:44:56.369 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Transfer Uygulaması başarılı şekilde açıldığı doğrulanır."  parameterizedStepValue:"Para Transfer Uygulaması başarılı şekilde açıldığı doğrulanır."}}
+02-02-2025 23:44:56.369 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Checking Account (Vadesiz Hesap) ismin düzenlemesi için hesap düzenleme butonuna tıklanır."}
+02-02-2025 23:44:56.369 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Checking Account (Vadesiz Hesap) ismin düzenlemesi için hesap düzenleme butonuna tıklanır."  parameterizedStepValue:"Checking Account (Vadesiz Hesap) ismin düzenlemesi için hesap düzenleme butonuna tıklanır."}}
+02-02-2025 23:44:56.370 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Tranferinin gerçekleşmediği ve hesap miktarını aynı kaldığı görülür."}
+02-02-2025 23:44:56.370 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Tranferinin gerçekleşmediği ve hesap miktarını aynı kaldığı görülür."  parameterizedStepValue:"Para Tranferinin gerçekleşmediği ve hesap miktarını aynı kaldığı görülür."}}
+02-02-2025 23:44:56.370 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Transfer Uygulaması başlatma sayfası açılır."}
+02-02-2025 23:44:56.370 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Transfer Uygulaması başlatma sayfası açılır."  parameterizedStepValue:"Para Transfer Uygulaması başlatma sayfası açılır."}}
+02-02-2025 23:44:56.370 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kredi kartı numara alanı test verisi ile doldurulur."}
+02-02-2025 23:44:56.370 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kredi kartı numara alanı test verisi ile doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kredi kartı numara alanı test verisi ile doldurulur."}}
+02-02-2025 23:44:56.370 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır."}
+02-02-2025 23:44:56.370 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır."  parameterizedStepValue:"Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır."}}
+02-02-2025 23:44:56.370 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kredi kartı sahibi alanı doldurulur."}
+02-02-2025 23:44:56.370 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kredi kartı sahibi alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kredi kartı sahibi alanı doldurulur."}}
+02-02-2025 23:44:56.371 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kartı son kullanma tarihi alanı doldurulur."}
+02-02-2025 23:44:56.371 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kartı son kullanma tarihi alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kartı son kullanma tarihi alanı doldurulur."}}
+02-02-2025 23:44:56.371 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kredi kartı CVV alanı doldurulur."}
+02-02-2025 23:44:56.371 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kredi kartı CVV alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kredi kartı CVV alanı doldurulur."}}
+02-02-2025 23:44:56.371 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki miktar alanı doldurulur."}
+02-02-2025 23:44:56.371 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki miktar alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki miktar alanı doldurulur."}}
+02-02-2025 23:44:56.371 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Ekle butonuna tıklanır."}
+02-02-2025 23:44:56.371 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Ekle butonuna tıklanır."  parameterizedStepValue:"Ekle butonuna tıklanır."}}
+02-02-2025 23:44:56.371 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme işleminin işlemler listesinde olduğu ve eklenen paranın hesaba eklendiği doğrulanır."}
+02-02-2025 23:44:56.371 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme işleminin işlemler listesinde olduğu ve eklenen paranın hesaba eklendiği doğrulanır."  parameterizedStepValue:"Para Ekleme işleminin işlemler listesinde olduğu ve eklenen paranın hesaba eklendiği doğrulanır."}}
+02-02-2025 23:44:56.415 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:44:56.495 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:44:57.446 [Gauge] [DEBUG] Validation completed.
+02-02-2025 23:44:57.447 [Gauge] [DEBUG] Run started
+02-02-2025 23:44:57.447 [Gauge] [DEBUG] Starting Html Report plugin
+02-02-2025 23:44:57.485 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+02-02-2025 23:44:57.486 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 53904
+02-02-2025 23:44:57.489 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 53904
+02-02-2025 23:44:57.489 [Gauge] [DEBUG] Initialising suite data store.
+02-02-2025 23:44:57.503 [java] [INFO] driver == null
+02-02-2025 23:44:57.508 [java] [INFO] SLF4J: No SLF4J providers were found.
+02-02-2025 23:44:57.508 [java] [INFO] SLF4J: Defaulting to no-operation (NOP) logger implementation
+02-02-2025 23:44:57.508 [java] [INFO] SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+02-02-2025 23:44:57.712 [java] [INFO] Feb 02, 2025 11:44:57 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+02-02-2025 23:44:57.713 [java] [INFO] INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+02-02-2025 23:44:57.745 [java] [INFO] log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+02-02-2025 23:44:57.745 [java] [INFO] log4j:WARN Please initialize the log4j system properly.
+02-02-2025 23:44:57.745 [java] [INFO] log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+02-02-2025 23:45:04.478 [java] [INFO] Feb 02, 2025 11:45:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+02-02-2025 23:45:04.478 [java] [INFO] WARNING: Unable to find CDP implementation matching 132
+02-02-2025 23:45:04.478 [java] [INFO] Feb 02, 2025 11:45:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+02-02-2025 23:45:04.478 [java] [INFO] WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.10.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+02-02-2025 23:45:04.491 [java] [INFO] Rapor yolu: /Applications/IntelliJ IDEA CE.app/Contents/Projects/MoneyTransferWebAutomationProject/reports/extent-report.html
+02-02-2025 23:45:27.231 [java] [INFO] flushReport1
+02-02-2025 23:45:27.232 [java] [INFO] flushReport2
+02-02-2025 23:45:27.438 [java] [INFO] flushReport
+02-02-2025 23:45:38.313 [java] [INFO] flushReport1
+02-02-2025 23:45:38.314 [java] [INFO] flushReport2
+02-02-2025 23:45:38.324 [java] [INFO] flushReport
+02-02-2025 23:45:43.285 [java] [INFO] Transfer Money Check
+02-02-2025 23:45:43.629 [java] [INFO] 2025-02-02 23:45:43.629 java[15628:577833] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+02-02-2025 23:45:44.450 [java] [INFO] flushReport1
+02-02-2025 23:45:44.450 [java] [INFO] flushReport2
+02-02-2025 23:45:44.470 [java] [INFO] flushReport
+02-02-2025 23:45:46.701 [java] [INFO] flushReport1
+02-02-2025 23:45:46.701 [java] [INFO] flushReport2
+02-02-2025 23:45:46.706 [java] [INFO] flushReport
+02-02-2025 23:45:48.655 [java] [INFO] flushReport1
+02-02-2025 23:45:48.655 [java] [INFO] flushReport2
+02-02-2025 23:45:48.659 [java] [INFO] flushReport
+02-02-2025 23:45:48.885 [html-report] [DEBUG] Transformed SuiteResult to report structure
+02-02-2025 23:45:48.919 [html-report] [INFO] Successfully generated html-report to => /Applications/IntelliJ IDEA CE.app/Contents/Projects/MoneyTransferWebAutomationProject/reports/html-report/index.html
+02-02-2025 23:45:48.919 [html-report] [DEBUG] Done generating HTML report using theme from /Users/n100523/.gauge/plugins/html-report/4.3.1/themes/default
+02-02-2025 23:45:48.919 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+02-02-2025 23:45:48.922 [Gauge] [DEBUG] Sending kill message to runner.
+02-02-2025 23:45:49.344 [Gauge] [INFO] Closing connection [127.0.0.1:53900] cause: EOF
+02-02-2025 23:45:49.434 [Gauge] [DEBUG] Runner with PID:15627 has exited
+02-02-2025 23:45:49.434 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+02-02-2025 23:45:49.434 [Gauge] [INFO] Scenarios:	5 executed	2 passed	3 failed	0 skipped
+02-02-2025 23:45:49.434 [Gauge] [INFO] 
+Total time taken: 51.416s
+02-02-2025 23:45:49.434 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+02-02-2025 23:46:52.724 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Applications/IntelliJ IDEA CE.app/Contents/Projects/MoneyTransferWebAutomationProject/.gauge/screenshots
+02-02-2025 23:46:52.725 [Gauge] [DEBUG] Plugin java is already installed.
+02-02-2025 23:46:52.725 [Gauge] [DEBUG] Plugin html-report is already installed.
+02-02-2025 23:46:52.725 [Gauge] [DEBUG] Parsing started.
+02-02-2025 23:46:52.725 [Gauge] [DEBUG] Started concepts parsing.
+02-02-2025 23:46:52.728 [Gauge] [DEBUG] 0 concepts parsing completed.
+02-02-2025 23:46:52.728 [Gauge] [DEBUG] Started specifications parsing.
+02-02-2025 23:46:52.729 [Gauge] [DEBUG] 1 specifications parsing completed.
+02-02-2025 23:46:52.730 [Gauge] [DEBUG] Parsing completed.
+02-02-2025 23:46:52.730 [Gauge] [DEBUG] Starting java runner
+02-02-2025 23:46:52.911 [Gauge] [DEBUG] Established connection to runner.
+02-02-2025 23:46:52.911 [Gauge] [DEBUG] Validation started.
+02-02-2025 23:46:53.466 [Gauge] [DEBUG] Checking updates...
+02-02-2025 23:46:53.466 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:46:53.706 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:46:53.783 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:46:53.852 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:46:53.920 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:46:53.991 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:46:54.061 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:46:54.746 [java] [INFO] WARNING: An illegal reflective access operation has occurred
+02-02-2025 23:46:54.746 [java] [INFO] WARNING: Illegal reflective access by com.google.protobuf.UnsafeUtil (file:/Users/n100523/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar) to field java.nio.Buffer.address
+02-02-2025 23:46:54.746 [java] [INFO] WARNING: Please consider reporting this to the maintainers of com.google.protobuf.UnsafeUtil
+02-02-2025 23:46:54.746 [java] [INFO] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+02-02-2025 23:46:54.746 [java] [INFO] WARNING: All illegal access operations will be denied in a future release
+02-02-2025 23:46:54.751 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Tranferi İşlemleri listesinde işlemin oluduğu ve transfer edilen miktar kadar paranın hesaptan eksildiği doğrulanır."}
+02-02-2025 23:46:54.751 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Tranferi İşlemleri listesinde işlemin oluduğu ve transfer edilen miktar kadar paranın hesaptan eksildiği doğrulanır."  parameterizedStepValue:"Para Tranferi İşlemleri listesinde işlemin oluduğu ve transfer edilen miktar kadar paranın hesaptan eksildiği doğrulanır."}}
+02-02-2025 23:46:54.755 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Ekleme butonuna tıklanır."}
+02-02-2025 23:46:54.755 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Ekleme butonuna tıklanır."  parameterizedStepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Ekleme butonuna tıklanır."}}
+02-02-2025 23:46:54.755 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Açılan Para Transferi pencerisinde miktar metin kutusuna yazılır."}
+02-02-2025 23:46:54.755 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna yazılır."  parameterizedStepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna yazılır."}}
+02-02-2025 23:46:54.755 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Gönder butonuna tıklanır."}
+02-02-2025 23:46:54.755 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Gönder butonuna tıklanır."  parameterizedStepValue:"Gönder butonuna tıklanır."}}
+02-02-2025 23:46:54.756 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Hesap isminin yeni hesap ismi olarak güncellendiği doğrulanır."}
+02-02-2025 23:46:54.756 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Hesap isminin yeni hesap ismi olarak güncellendiği doğrulanır."  parameterizedStepValue:"Hesap isminin yeni hesap ismi olarak güncellendiği doğrulanır."}}
+02-02-2025 23:46:54.756 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır."}
+02-02-2025 23:46:54.756 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır."  parameterizedStepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır."}}
+02-02-2025 23:46:54.756 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Açılan pencerede hesap ismi yeni hesap ismi rastgele değer olarak değiştirilmek üzere metin kutusuna yazılır."}
+02-02-2025 23:46:54.756 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Açılan pencerede hesap ismi yeni hesap ismi rastgele değer olarak değiştirilmek üzere metin kutusuna yazılır."  parameterizedStepValue:"Açılan pencerede hesap ismi yeni hesap ismi rastgele değer olarak değiştirilmek üzere metin kutusuna yazılır."}}
+02-02-2025 23:46:54.756 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Penceredeki güncelleme butonuna tıklanır."}
+02-02-2025 23:46:54.756 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Penceredeki güncelleme butonuna tıklanır."  parameterizedStepValue:"Penceredeki güncelleme butonuna tıklanır."}}
+02-02-2025 23:46:54.756 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Açılan Para Transferi pencerisinde miktar metin kutusuna mevcut para miktarında fazla bir değer yazılır."}
+02-02-2025 23:46:54.756 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna mevcut para miktarında fazla bir değer yazılır."  parameterizedStepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna mevcut para miktarında fazla bir değer yazılır."}}
+02-02-2025 23:46:54.757 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Transfer Uygulaması başarılı şekilde açıldığı doğrulanır."}
+02-02-2025 23:46:54.757 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Transfer Uygulaması başarılı şekilde açıldığı doğrulanır."  parameterizedStepValue:"Para Transfer Uygulaması başarılı şekilde açıldığı doğrulanır."}}
+02-02-2025 23:46:54.757 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Checking Account (Vadesiz Hesap) ismin düzenlemesi için hesap düzenleme butonuna tıklanır."}
+02-02-2025 23:46:54.757 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Checking Account (Vadesiz Hesap) ismin düzenlemesi için hesap düzenleme butonuna tıklanır."  parameterizedStepValue:"Checking Account (Vadesiz Hesap) ismin düzenlemesi için hesap düzenleme butonuna tıklanır."}}
+02-02-2025 23:46:54.757 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Tranferinin gerçekleşmediği ve hesap miktarını aynı kaldığı görülür."}
+02-02-2025 23:46:54.757 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Tranferinin gerçekleşmediği ve hesap miktarını aynı kaldığı görülür."  parameterizedStepValue:"Para Tranferinin gerçekleşmediği ve hesap miktarını aynı kaldığı görülür."}}
+02-02-2025 23:46:54.757 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Transfer Uygulaması başlatma sayfası açılır."}
+02-02-2025 23:46:54.757 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Transfer Uygulaması başlatma sayfası açılır."  parameterizedStepValue:"Para Transfer Uygulaması başlatma sayfası açılır."}}
+02-02-2025 23:46:54.757 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kredi kartı numara alanı test verisi ile doldurulur."}
+02-02-2025 23:46:54.757 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kredi kartı numara alanı test verisi ile doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kredi kartı numara alanı test verisi ile doldurulur."}}
+02-02-2025 23:46:54.757 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır."}
+02-02-2025 23:46:54.757 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır."  parameterizedStepValue:"Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır."}}
+02-02-2025 23:46:54.758 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kredi kartı sahibi alanı doldurulur."}
+02-02-2025 23:46:54.758 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kredi kartı sahibi alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kredi kartı sahibi alanı doldurulur."}}
+02-02-2025 23:46:54.758 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kartı son kullanma tarihi alanı doldurulur."}
+02-02-2025 23:46:54.758 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kartı son kullanma tarihi alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kartı son kullanma tarihi alanı doldurulur."}}
+02-02-2025 23:46:54.758 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kredi kartı CVV alanı doldurulur."}
+02-02-2025 23:46:54.758 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kredi kartı CVV alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kredi kartı CVV alanı doldurulur."}}
+02-02-2025 23:46:54.758 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki miktar alanı doldurulur."}
+02-02-2025 23:46:54.758 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki miktar alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki miktar alanı doldurulur."}}
+02-02-2025 23:46:54.759 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Ekle butonuna tıklanır."}
+02-02-2025 23:46:54.759 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Ekle butonuna tıklanır."  parameterizedStepValue:"Ekle butonuna tıklanır."}}
+02-02-2025 23:46:54.759 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme işleminin işlemler listesinde olduğu ve eklenen paranın hesaba eklendiği doğrulanır."}
+02-02-2025 23:46:54.759 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme işleminin işlemler listesinde olduğu ve eklenen paranın hesaba eklendiği doğrulanır."  parameterizedStepValue:"Para Ekleme işleminin işlemler listesinde olduğu ve eklenen paranın hesaba eklendiği doğrulanır."}}
+02-02-2025 23:46:55.826 [Gauge] [DEBUG] Validation completed.
+02-02-2025 23:46:55.826 [Gauge] [DEBUG] Run started
+02-02-2025 23:46:55.827 [Gauge] [DEBUG] Starting Html Report plugin
+02-02-2025 23:46:55.872 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+02-02-2025 23:46:55.872 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 53934
+02-02-2025 23:46:55.876 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 53934
+02-02-2025 23:46:55.876 [Gauge] [DEBUG] Initialising suite data store.
+02-02-2025 23:46:55.895 [java] [INFO] driver == null
+02-02-2025 23:46:55.899 [java] [INFO] SLF4J: No SLF4J providers were found.
+02-02-2025 23:46:55.899 [java] [INFO] SLF4J: Defaulting to no-operation (NOP) logger implementation
+02-02-2025 23:46:55.899 [java] [INFO] SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+02-02-2025 23:46:56.066 [java] [INFO] log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+02-02-2025 23:46:56.066 [java] [INFO] log4j:WARN Please initialize the log4j system properly.
+02-02-2025 23:46:56.066 [java] [INFO] log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+02-02-2025 23:46:57.833 [java] [INFO] 2025-02-02 23:46:57.833 java[15696:580048] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+02-02-2025 23:46:58.648 [html-report] [DEBUG] Transformed SuiteResult to report structure
+02-02-2025 23:46:58.657 [html-report] [INFO] Successfully generated html-report to => /Applications/IntelliJ IDEA CE.app/Contents/Projects/MoneyTransferWebAutomationProject/reports/html-report/index.html
+02-02-2025 23:46:58.658 [html-report] [DEBUG] Done generating HTML report using theme from /Users/n100523/.gauge/plugins/html-report/4.3.1/themes/default
+02-02-2025 23:46:58.658 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+02-02-2025 23:46:58.658 [Gauge] [DEBUG] Sending kill message to runner.
+02-02-2025 23:46:59.065 [Gauge] [INFO] Closing connection [127.0.0.1:53930] cause: EOF
+02-02-2025 23:46:59.162 [Gauge] [DEBUG] Runner with PID:15695 has exited
+02-02-2025 23:46:59.162 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+02-02-2025 23:46:59.162 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+02-02-2025 23:46:59.162 [Gauge] [INFO] 
+Total time taken: 2.819s
+02-02-2025 23:46:59.162 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+02-02-2025 23:49:23.958 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Applications/IntelliJ IDEA CE.app/Contents/Projects/MoneyTransferWebAutomationProject/.gauge/screenshots
+02-02-2025 23:49:23.959 [Gauge] [DEBUG] Plugin java is already installed.
+02-02-2025 23:49:23.959 [Gauge] [DEBUG] Plugin html-report is already installed.
+02-02-2025 23:49:23.960 [Gauge] [DEBUG] Parsing started.
+02-02-2025 23:49:23.960 [Gauge] [DEBUG] Started concepts parsing.
+02-02-2025 23:49:23.964 [Gauge] [DEBUG] 0 concepts parsing completed.
+02-02-2025 23:49:23.964 [Gauge] [DEBUG] Started specifications parsing.
+02-02-2025 23:49:23.965 [Gauge] [DEBUG] 1 specifications parsing completed.
+02-02-2025 23:49:23.965 [Gauge] [DEBUG] Parsing completed.
+02-02-2025 23:49:23.966 [Gauge] [DEBUG] Starting java runner
+02-02-2025 23:49:24.711 [Gauge] [DEBUG] Checking updates...
+02-02-2025 23:49:24.712 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:49:24.749 [Gauge] [DEBUG] Established connection to runner.
+02-02-2025 23:49:24.749 [Gauge] [DEBUG] Validation started.
+02-02-2025 23:49:25.047 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:49:25.164 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:49:25.372 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:49:25.447 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:49:25.533 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:49:25.610 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:49:26.644 [java] [INFO] WARNING: An illegal reflective access operation has occurred
+02-02-2025 23:49:26.644 [java] [INFO] WARNING: Illegal reflective access by com.google.protobuf.UnsafeUtil (file:/Users/n100523/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar) to field java.nio.Buffer.address
+02-02-2025 23:49:26.644 [java] [INFO] WARNING: Please consider reporting this to the maintainers of com.google.protobuf.UnsafeUtil
+02-02-2025 23:49:26.644 [java] [INFO] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+02-02-2025 23:49:26.644 [java] [INFO] WARNING: All illegal access operations will be denied in a future release
+02-02-2025 23:49:26.649 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Tranferi İşlemleri listesinde işlemin oluduğu ve transfer edilen miktar kadar paranın hesaptan eksildiği doğrulanır."}
+02-02-2025 23:49:26.649 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Tranferi İşlemleri listesinde işlemin oluduğu ve transfer edilen miktar kadar paranın hesaptan eksildiği doğrulanır."  parameterizedStepValue:"Para Tranferi İşlemleri listesinde işlemin oluduğu ve transfer edilen miktar kadar paranın hesaptan eksildiği doğrulanır."}}
+02-02-2025 23:49:26.653 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Ekleme butonuna tıklanır."}
+02-02-2025 23:49:26.653 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Ekleme butonuna tıklanır."  parameterizedStepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Ekleme butonuna tıklanır."}}
+02-02-2025 23:49:26.653 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Açılan Para Transferi pencerisinde miktar metin kutusuna yazılır."}
+02-02-2025 23:49:26.653 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna yazılır."  parameterizedStepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna yazılır."}}
+02-02-2025 23:49:26.653 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Gönder butonuna tıklanır."}
+02-02-2025 23:49:26.653 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Gönder butonuna tıklanır."  parameterizedStepValue:"Gönder butonuna tıklanır."}}
+02-02-2025 23:49:26.653 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Hesap isminin yeni hesap ismi olarak güncellendiği doğrulanır."}
+02-02-2025 23:49:26.653 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Hesap isminin yeni hesap ismi olarak güncellendiği doğrulanır."  parameterizedStepValue:"Hesap isminin yeni hesap ismi olarak güncellendiği doğrulanır."}}
+02-02-2025 23:49:26.653 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır."}
+02-02-2025 23:49:26.653 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır."  parameterizedStepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır."}}
+02-02-2025 23:49:26.654 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Açılan pencerede hesap ismi yeni hesap ismi rastgele değer olarak değiştirilmek üzere metin kutusuna yazılır."}
+02-02-2025 23:49:26.654 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Açılan pencerede hesap ismi yeni hesap ismi rastgele değer olarak değiştirilmek üzere metin kutusuna yazılır."  parameterizedStepValue:"Açılan pencerede hesap ismi yeni hesap ismi rastgele değer olarak değiştirilmek üzere metin kutusuna yazılır."}}
+02-02-2025 23:49:26.654 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Penceredeki güncelleme butonuna tıklanır."}
+02-02-2025 23:49:26.654 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Penceredeki güncelleme butonuna tıklanır."  parameterizedStepValue:"Penceredeki güncelleme butonuna tıklanır."}}
+02-02-2025 23:49:26.654 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Açılan Para Transferi pencerisinde miktar metin kutusuna mevcut para miktarında fazla bir değer yazılır."}
+02-02-2025 23:49:26.654 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna mevcut para miktarında fazla bir değer yazılır."  parameterizedStepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna mevcut para miktarında fazla bir değer yazılır."}}
+02-02-2025 23:49:26.654 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Transfer Uygulaması başarılı şekilde açıldığı doğrulanır."}
+02-02-2025 23:49:26.654 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Transfer Uygulaması başarılı şekilde açıldığı doğrulanır."  parameterizedStepValue:"Para Transfer Uygulaması başarılı şekilde açıldığı doğrulanır."}}
+02-02-2025 23:49:26.654 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Checking Account (Vadesiz Hesap) ismin düzenlemesi için hesap düzenleme butonuna tıklanır."}
+02-02-2025 23:49:26.654 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Checking Account (Vadesiz Hesap) ismin düzenlemesi için hesap düzenleme butonuna tıklanır."  parameterizedStepValue:"Checking Account (Vadesiz Hesap) ismin düzenlemesi için hesap düzenleme butonuna tıklanır."}}
+02-02-2025 23:49:26.654 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Tranferinin gerçekleşmediği ve hesap miktarını aynı kaldığı görülür."}
+02-02-2025 23:49:26.654 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Tranferinin gerçekleşmediği ve hesap miktarını aynı kaldığı görülür."  parameterizedStepValue:"Para Tranferinin gerçekleşmediği ve hesap miktarını aynı kaldığı görülür."}}
+02-02-2025 23:49:26.655 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Transfer Uygulaması başlatma sayfası açılır."}
+02-02-2025 23:49:26.655 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Transfer Uygulaması başlatma sayfası açılır."  parameterizedStepValue:"Para Transfer Uygulaması başlatma sayfası açılır."}}
+02-02-2025 23:49:26.655 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kredi kartı numara alanı test verisi ile doldurulur."}
+02-02-2025 23:49:26.655 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kredi kartı numara alanı test verisi ile doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kredi kartı numara alanı test verisi ile doldurulur."}}
+02-02-2025 23:49:26.655 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır."}
+02-02-2025 23:49:26.656 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır."  parameterizedStepValue:"Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır."}}
+02-02-2025 23:49:26.656 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kredi kartı sahibi alanı doldurulur."}
+02-02-2025 23:49:26.656 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kredi kartı sahibi alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kredi kartı sahibi alanı doldurulur."}}
+02-02-2025 23:49:26.656 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kartı son kullanma tarihi alanı doldurulur."}
+02-02-2025 23:49:26.657 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kartı son kullanma tarihi alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kartı son kullanma tarihi alanı doldurulur."}}
+02-02-2025 23:49:26.657 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kredi kartı CVV alanı doldurulur."}
+02-02-2025 23:49:26.657 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kredi kartı CVV alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kredi kartı CVV alanı doldurulur."}}
+02-02-2025 23:49:26.657 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki miktar alanı doldurulur."}
+02-02-2025 23:49:26.657 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki miktar alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki miktar alanı doldurulur."}}
+02-02-2025 23:49:26.657 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Ekle butonuna tıklanır."}
+02-02-2025 23:49:26.657 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Ekle butonuna tıklanır."  parameterizedStepValue:"Ekle butonuna tıklanır."}}
+02-02-2025 23:49:26.657 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme işleminin işlemler listesinde olduğu ve eklenen paranın hesaba eklendiği doğrulanır."}
+02-02-2025 23:49:26.657 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme işleminin işlemler listesinde olduğu ve eklenen paranın hesaba eklendiği doğrulanır."  parameterizedStepValue:"Para Ekleme işleminin işlemler listesinde olduğu ve eklenen paranın hesaba eklendiği doğrulanır."}}
+02-02-2025 23:49:27.737 [Gauge] [DEBUG] Validation completed.
+02-02-2025 23:49:27.737 [Gauge] [DEBUG] Run started
+02-02-2025 23:49:27.738 [Gauge] [DEBUG] Starting Html Report plugin
+02-02-2025 23:49:27.777 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+02-02-2025 23:49:27.777 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 63391
+02-02-2025 23:49:27.783 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 63391
+02-02-2025 23:49:27.783 [Gauge] [DEBUG] Initialising suite data store.
+02-02-2025 23:49:27.797 [java] [INFO] driver == null
+02-02-2025 23:49:27.802 [java] [INFO] SLF4J: No SLF4J providers were found.
+02-02-2025 23:49:27.802 [java] [INFO] SLF4J: Defaulting to no-operation (NOP) logger implementation
+02-02-2025 23:49:27.802 [java] [INFO] SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+02-02-2025 23:49:27.982 [java] [INFO] log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+02-02-2025 23:49:27.982 [java] [INFO] log4j:WARN Please initialize the log4j system properly.
+02-02-2025 23:49:27.982 [java] [INFO] log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+02-02-2025 23:49:29.404 [java] [INFO] Rapor yolu: /Applications/IntelliJ IDEA CE.app/Contents/Projects/MoneyTransferWebAutomationProject/reports/extent-report.html
+02-02-2025 23:49:33.437 [java] [INFO] flushReport1
+02-02-2025 23:49:33.438 [java] [INFO] flushReport2
+02-02-2025 23:49:33.635 [java] [INFO] flushReport
+02-02-2025 23:49:34.355 [java] [INFO] flushReport1
+02-02-2025 23:49:34.356 [java] [INFO] flushReport2
+02-02-2025 23:49:34.366 [java] [INFO] flushReport
+02-02-2025 23:49:35.039 [java] [INFO] Transfer Money Check
+02-02-2025 23:49:35.244 [java] [INFO] 2025-02-02 23:49:35.244 java[15835:583151] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+02-02-2025 23:49:36.050 [java] [INFO] flushReport1
+02-02-2025 23:49:36.050 [java] [INFO] flushReport2
+02-02-2025 23:49:36.064 [java] [INFO] flushReport
+02-02-2025 23:49:36.642 [java] [INFO] flushReport1
+02-02-2025 23:49:36.642 [java] [INFO] flushReport2
+02-02-2025 23:49:36.648 [java] [INFO] flushReport
+02-02-2025 23:49:37.195 [java] [INFO] flushReport1
+02-02-2025 23:49:37.195 [java] [INFO] flushReport2
+02-02-2025 23:49:37.199 [java] [INFO] flushReport
+02-02-2025 23:49:37.632 [html-report] [DEBUG] Transformed SuiteResult to report structure
+02-02-2025 23:49:37.664 [html-report] [INFO] Successfully generated html-report to => /Applications/IntelliJ IDEA CE.app/Contents/Projects/MoneyTransferWebAutomationProject/reports/html-report/index.html
+02-02-2025 23:49:37.664 [html-report] [DEBUG] Done generating HTML report using theme from /Users/n100523/.gauge/plugins/html-report/4.3.1/themes/default
+02-02-2025 23:49:37.664 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+02-02-2025 23:49:37.666 [Gauge] [DEBUG] Sending kill message to runner.
+02-02-2025 23:49:38.082 [Gauge] [INFO] Closing connection [127.0.0.1:63388] cause: EOF
+02-02-2025 23:49:38.170 [Gauge] [DEBUG] Runner with PID:15831 has exited
+02-02-2025 23:49:38.170 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+02-02-2025 23:49:38.170 [Gauge] [INFO] Scenarios:	5 executed	2 passed	3 failed	0 skipped
+02-02-2025 23:49:38.170 [Gauge] [INFO] 
+Total time taken: 9.841s
+02-02-2025 23:49:38.171 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+02-02-2025 23:50:04.608 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Applications/IntelliJ IDEA CE.app/Contents/Projects/MoneyTransferWebAutomationProject/.gauge/screenshots
+02-02-2025 23:50:04.609 [Gauge] [DEBUG] Plugin java is already installed.
+02-02-2025 23:50:04.610 [Gauge] [DEBUG] Plugin html-report is already installed.
+02-02-2025 23:50:04.610 [Gauge] [DEBUG] Parsing started.
+02-02-2025 23:50:04.611 [Gauge] [DEBUG] Started concepts parsing.
+02-02-2025 23:50:04.613 [Gauge] [DEBUG] 0 concepts parsing completed.
+02-02-2025 23:50:04.614 [Gauge] [DEBUG] Started specifications parsing.
+02-02-2025 23:50:04.615 [Gauge] [DEBUG] 1 specifications parsing completed.
+02-02-2025 23:50:04.615 [Gauge] [DEBUG] Parsing completed.
+02-02-2025 23:50:04.616 [Gauge] [DEBUG] Starting java runner
+02-02-2025 23:50:04.780 [Gauge] [DEBUG] Established connection to runner.
+02-02-2025 23:50:04.780 [Gauge] [DEBUG] Validation started.
+02-02-2025 23:50:05.364 [Gauge] [DEBUG] Checking updates...
+02-02-2025 23:50:05.365 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:50:05.623 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:50:05.688 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:50:05.892 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:50:05.970 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:50:06.040 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:50:06.110 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+02-02-2025 23:50:06.703 [java] [INFO] WARNING: An illegal reflective access operation has occurred
+02-02-2025 23:50:06.703 [java] [INFO] WARNING: Illegal reflective access by com.google.protobuf.UnsafeUtil (file:/Users/n100523/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar) to field java.nio.Buffer.address
+02-02-2025 23:50:06.703 [java] [INFO] WARNING: Please consider reporting this to the maintainers of com.google.protobuf.UnsafeUtil
+02-02-2025 23:50:06.703 [java] [INFO] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+02-02-2025 23:50:06.703 [java] [INFO] WARNING: All illegal access operations will be denied in a future release
+02-02-2025 23:50:06.707 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Tranferi İşlemleri listesinde işlemin oluduğu ve transfer edilen miktar kadar paranın hesaptan eksildiği doğrulanır."}
+02-02-2025 23:50:06.707 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Tranferi İşlemleri listesinde işlemin oluduğu ve transfer edilen miktar kadar paranın hesaptan eksildiği doğrulanır."  parameterizedStepValue:"Para Tranferi İşlemleri listesinde işlemin oluduğu ve transfer edilen miktar kadar paranın hesaptan eksildiği doğrulanır."}}
+02-02-2025 23:50:06.711 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Ekleme butonuna tıklanır."}
+02-02-2025 23:50:06.711 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Ekleme butonuna tıklanır."  parameterizedStepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Ekleme butonuna tıklanır."}}
+02-02-2025 23:50:06.711 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Açılan Para Transferi pencerisinde miktar metin kutusuna yazılır."}
+02-02-2025 23:50:06.711 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna yazılır."  parameterizedStepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna yazılır."}}
+02-02-2025 23:50:06.711 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Gönder butonuna tıklanır."}
+02-02-2025 23:50:06.711 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Gönder butonuna tıklanır."  parameterizedStepValue:"Gönder butonuna tıklanır."}}
+02-02-2025 23:50:06.711 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Hesap isminin yeni hesap ismi olarak güncellendiği doğrulanır."}
+02-02-2025 23:50:06.711 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Hesap isminin yeni hesap ismi olarak güncellendiği doğrulanır."  parameterizedStepValue:"Hesap isminin yeni hesap ismi olarak güncellendiği doğrulanır."}}
+02-02-2025 23:50:06.712 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır."}
+02-02-2025 23:50:06.712 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır."  parameterizedStepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır."}}
+02-02-2025 23:50:06.712 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Açılan pencerede hesap ismi yeni hesap ismi rastgele değer olarak değiştirilmek üzere metin kutusuna yazılır."}
+02-02-2025 23:50:06.712 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Açılan pencerede hesap ismi yeni hesap ismi rastgele değer olarak değiştirilmek üzere metin kutusuna yazılır."  parameterizedStepValue:"Açılan pencerede hesap ismi yeni hesap ismi rastgele değer olarak değiştirilmek üzere metin kutusuna yazılır."}}
+02-02-2025 23:50:06.712 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Penceredeki güncelleme butonuna tıklanır."}
+02-02-2025 23:50:06.712 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Penceredeki güncelleme butonuna tıklanır."  parameterizedStepValue:"Penceredeki güncelleme butonuna tıklanır."}}
+02-02-2025 23:50:06.712 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Açılan Para Transferi pencerisinde miktar metin kutusuna mevcut para miktarında fazla bir değer yazılır."}
+02-02-2025 23:50:06.712 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna mevcut para miktarında fazla bir değer yazılır."  parameterizedStepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna mevcut para miktarında fazla bir değer yazılır."}}
+02-02-2025 23:50:06.713 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Transfer Uygulaması başarılı şekilde açıldığı doğrulanır."}
+02-02-2025 23:50:06.713 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Transfer Uygulaması başarılı şekilde açıldığı doğrulanır."  parameterizedStepValue:"Para Transfer Uygulaması başarılı şekilde açıldığı doğrulanır."}}
+02-02-2025 23:50:06.713 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Checking Account (Vadesiz Hesap) ismin düzenlemesi için hesap düzenleme butonuna tıklanır."}
+02-02-2025 23:50:06.713 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Checking Account (Vadesiz Hesap) ismin düzenlemesi için hesap düzenleme butonuna tıklanır."  parameterizedStepValue:"Checking Account (Vadesiz Hesap) ismin düzenlemesi için hesap düzenleme butonuna tıklanır."}}
+02-02-2025 23:50:06.713 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Tranferinin gerçekleşmediği ve hesap miktarını aynı kaldığı görülür."}
+02-02-2025 23:50:06.713 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Tranferinin gerçekleşmediği ve hesap miktarını aynı kaldığı görülür."  parameterizedStepValue:"Para Tranferinin gerçekleşmediği ve hesap miktarını aynı kaldığı görülür."}}
+02-02-2025 23:50:06.713 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Transfer Uygulaması başlatma sayfası açılır."}
+02-02-2025 23:50:06.713 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Transfer Uygulaması başlatma sayfası açılır."  parameterizedStepValue:"Para Transfer Uygulaması başlatma sayfası açılır."}}
+02-02-2025 23:50:06.713 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kredi kartı numara alanı test verisi ile doldurulur."}
+02-02-2025 23:50:06.714 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kredi kartı numara alanı test verisi ile doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kredi kartı numara alanı test verisi ile doldurulur."}}
+02-02-2025 23:50:06.714 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır."}
+02-02-2025 23:50:06.714 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır."  parameterizedStepValue:"Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır."}}
+02-02-2025 23:50:06.714 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kredi kartı sahibi alanı doldurulur."}
+02-02-2025 23:50:06.714 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kredi kartı sahibi alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kredi kartı sahibi alanı doldurulur."}}
+02-02-2025 23:50:06.714 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kartı son kullanma tarihi alanı doldurulur."}
+02-02-2025 23:50:06.714 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kartı son kullanma tarihi alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kartı son kullanma tarihi alanı doldurulur."}}
+02-02-2025 23:50:06.715 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kredi kartı CVV alanı doldurulur."}
+02-02-2025 23:50:06.715 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kredi kartı CVV alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kredi kartı CVV alanı doldurulur."}}
+02-02-2025 23:50:06.715 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki miktar alanı doldurulur."}
+02-02-2025 23:50:06.715 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki miktar alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki miktar alanı doldurulur."}}
+02-02-2025 23:50:06.715 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Ekle butonuna tıklanır."}
+02-02-2025 23:50:06.715 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Ekle butonuna tıklanır."  parameterizedStepValue:"Ekle butonuna tıklanır."}}
+02-02-2025 23:50:06.715 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme işleminin işlemler listesinde olduğu ve eklenen paranın hesaba eklendiği doğrulanır."}
+02-02-2025 23:50:06.715 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme işleminin işlemler listesinde olduğu ve eklenen paranın hesaba eklendiği doğrulanır."  parameterizedStepValue:"Para Ekleme işleminin işlemler listesinde olduğu ve eklenen paranın hesaba eklendiği doğrulanır."}}
+02-02-2025 23:50:07.772 [Gauge] [DEBUG] Validation completed.
+02-02-2025 23:50:07.772 [Gauge] [DEBUG] Run started
+02-02-2025 23:50:07.772 [Gauge] [DEBUG] Starting Html Report plugin
+02-02-2025 23:50:07.816 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+02-02-2025 23:50:07.816 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 58659
+02-02-2025 23:50:07.820 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 58659
+02-02-2025 23:50:07.820 [Gauge] [DEBUG] Initialising suite data store.
+02-02-2025 23:50:07.836 [java] [INFO] driver == null
+02-02-2025 23:50:07.841 [java] [INFO] SLF4J: No SLF4J providers were found.
+02-02-2025 23:50:07.841 [java] [INFO] SLF4J: Defaulting to no-operation (NOP) logger implementation
+02-02-2025 23:50:07.841 [java] [INFO] SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+02-02-2025 23:50:08.011 [java] [INFO] log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+02-02-2025 23:50:08.011 [java] [INFO] log4j:WARN Please initialize the log4j system properly.
+02-02-2025 23:50:08.011 [java] [INFO] log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+02-02-2025 23:50:08.109 [java] [INFO] Feb 02, 2025 11:50:08 PM org.openqa.selenium.remote.RemoteWebDriver checkNonW3CCapabilities
+02-02-2025 23:50:08.109 [java] [INFO] WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [deviceName, platformVersion]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+02-02-2025 23:50:08.780 [java] [INFO] 2025-02-02 23:50:08.780 java[15870:584175] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+02-02-2025 23:50:09.575 [html-report] [DEBUG] Transformed SuiteResult to report structure
+02-02-2025 23:50:09.581 [html-report] [INFO] Successfully generated html-report to => /Applications/IntelliJ IDEA CE.app/Contents/Projects/MoneyTransferWebAutomationProject/reports/html-report/index.html
+02-02-2025 23:50:09.581 [html-report] [DEBUG] Done generating HTML report using theme from /Users/n100523/.gauge/plugins/html-report/4.3.1/themes/default
+02-02-2025 23:50:09.581 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+02-02-2025 23:50:09.581 [Gauge] [DEBUG] Sending kill message to runner.
+02-02-2025 23:50:09.649 [Gauge] [INFO] Closing connection [127.0.0.1:58655] cause: EOF
+02-02-2025 23:50:09.682 [Gauge] [DEBUG] Runner with PID:15869 has exited
+02-02-2025 23:50:09.683 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+02-02-2025 23:50:09.683 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+02-02-2025 23:50:09.683 [Gauge] [INFO] 
+Total time taken: 1.802s
+02-02-2025 23:50:09.683 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+03-02-2025 00:02:25.190 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Applications/IntelliJ IDEA CE.app/Contents/Projects/MoneyTransferWebAutomationProject/.gauge/screenshots
+03-02-2025 00:02:25.191 [Gauge] [DEBUG] Plugin java is already installed.
+03-02-2025 00:02:25.191 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-02-2025 00:02:25.192 [Gauge] [DEBUG] Parsing started.
+03-02-2025 00:02:25.192 [Gauge] [DEBUG] Started concepts parsing.
+03-02-2025 00:02:25.194 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-02-2025 00:02:25.194 [Gauge] [DEBUG] Started specifications parsing.
+03-02-2025 00:02:25.196 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-02-2025 00:02:25.196 [Gauge] [DEBUG] Parsing completed.
+03-02-2025 00:02:25.197 [Gauge] [DEBUG] Starting java runner
+03-02-2025 00:02:25.959 [Gauge] [DEBUG] Established connection to runner.
+03-02-2025 00:02:25.959 [Gauge] [DEBUG] Validation started.
+03-02-2025 00:02:26.015 [Gauge] [DEBUG] Checking updates...
+03-02-2025 00:02:26.016 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+03-02-2025 00:02:26.374 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+03-02-2025 00:02:26.453 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+03-02-2025 00:02:26.651 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+03-02-2025 00:02:26.734 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+03-02-2025 00:02:26.804 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+03-02-2025 00:02:26.877 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+03-02-2025 00:02:27.821 [java] [INFO] WARNING: An illegal reflective access operation has occurred
+03-02-2025 00:02:27.821 [java] [INFO] WARNING: Illegal reflective access by com.google.protobuf.UnsafeUtil (file:/Users/n100523/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar) to field java.nio.Buffer.address
+03-02-2025 00:02:27.821 [java] [INFO] WARNING: Please consider reporting this to the maintainers of com.google.protobuf.UnsafeUtil
+03-02-2025 00:02:27.821 [java] [INFO] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+03-02-2025 00:02:27.822 [java] [INFO] WARNING: All illegal access operations will be denied in a future release
+03-02-2025 00:02:27.826 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Tranferi İşlemleri listesinde işlemin oluduğu ve transfer edilen miktar kadar paranın hesaptan eksildiği doğrulanır."}
+03-02-2025 00:02:27.826 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Tranferi İşlemleri listesinde işlemin oluduğu ve transfer edilen miktar kadar paranın hesaptan eksildiği doğrulanır."  parameterizedStepValue:"Para Tranferi İşlemleri listesinde işlemin oluduğu ve transfer edilen miktar kadar paranın hesaptan eksildiği doğrulanır."}}
+03-02-2025 00:02:27.830 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Ekleme butonuna tıklanır."}
+03-02-2025 00:02:27.830 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Ekleme butonuna tıklanır."  parameterizedStepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Ekleme butonuna tıklanır."}}
+03-02-2025 00:02:27.831 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Açılan Para Transferi pencerisinde miktar metin kutusuna yazılır."}
+03-02-2025 00:02:27.831 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna yazılır."  parameterizedStepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna yazılır."}}
+03-02-2025 00:02:27.831 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Gönder butonuna tıklanır."}
+03-02-2025 00:02:27.831 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Gönder butonuna tıklanır."  parameterizedStepValue:"Gönder butonuna tıklanır."}}
+03-02-2025 00:02:27.831 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Hesap isminin yeni hesap ismi olarak güncellendiği doğrulanır."}
+03-02-2025 00:02:27.831 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Hesap isminin yeni hesap ismi olarak güncellendiği doğrulanır."  parameterizedStepValue:"Hesap isminin yeni hesap ismi olarak güncellendiği doğrulanır."}}
+03-02-2025 00:02:27.831 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır."}
+03-02-2025 00:02:27.831 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır."  parameterizedStepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır."}}
+03-02-2025 00:02:27.831 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Açılan pencerede hesap ismi yeni hesap ismi rastgele değer olarak değiştirilmek üzere metin kutusuna yazılır."}
+03-02-2025 00:02:27.831 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Açılan pencerede hesap ismi yeni hesap ismi rastgele değer olarak değiştirilmek üzere metin kutusuna yazılır."  parameterizedStepValue:"Açılan pencerede hesap ismi yeni hesap ismi rastgele değer olarak değiştirilmek üzere metin kutusuna yazılır."}}
+03-02-2025 00:02:27.832 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Penceredeki güncelleme butonuna tıklanır."}
+03-02-2025 00:02:27.832 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Penceredeki güncelleme butonuna tıklanır."  parameterizedStepValue:"Penceredeki güncelleme butonuna tıklanır."}}
+03-02-2025 00:02:27.832 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Açılan Para Transferi pencerisinde miktar metin kutusuna mevcut para miktarında fazla bir değer yazılır."}
+03-02-2025 00:02:27.832 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna mevcut para miktarında fazla bir değer yazılır."  parameterizedStepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna mevcut para miktarında fazla bir değer yazılır."}}
+03-02-2025 00:02:27.832 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Transfer Uygulaması başarılı şekilde açıldığı doğrulanır."}
+03-02-2025 00:02:27.832 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Transfer Uygulaması başarılı şekilde açıldığı doğrulanır."  parameterizedStepValue:"Para Transfer Uygulaması başarılı şekilde açıldığı doğrulanır."}}
+03-02-2025 00:02:27.832 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Checking Account (Vadesiz Hesap) ismin düzenlemesi için hesap düzenleme butonuna tıklanır."}
+03-02-2025 00:02:27.832 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Checking Account (Vadesiz Hesap) ismin düzenlemesi için hesap düzenleme butonuna tıklanır."  parameterizedStepValue:"Checking Account (Vadesiz Hesap) ismin düzenlemesi için hesap düzenleme butonuna tıklanır."}}
+03-02-2025 00:02:27.832 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Tranferinin gerçekleşmediği ve hesap miktarını aynı kaldığı görülür."}
+03-02-2025 00:02:27.832 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Tranferinin gerçekleşmediği ve hesap miktarını aynı kaldığı görülür."  parameterizedStepValue:"Para Tranferinin gerçekleşmediği ve hesap miktarını aynı kaldığı görülür."}}
+03-02-2025 00:02:27.832 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Transfer Uygulaması başlatma sayfası açılır."}
+03-02-2025 00:02:27.832 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Transfer Uygulaması başlatma sayfası açılır."  parameterizedStepValue:"Para Transfer Uygulaması başlatma sayfası açılır."}}
+03-02-2025 00:02:27.833 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kredi kartı numara alanı test verisi ile doldurulur."}
+03-02-2025 00:02:27.833 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kredi kartı numara alanı test verisi ile doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kredi kartı numara alanı test verisi ile doldurulur."}}
+03-02-2025 00:02:27.833 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır."}
+03-02-2025 00:02:27.833 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır."  parameterizedStepValue:"Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır."}}
+03-02-2025 00:02:27.833 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kredi kartı sahibi alanı doldurulur."}
+03-02-2025 00:02:27.833 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kredi kartı sahibi alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kredi kartı sahibi alanı doldurulur."}}
+03-02-2025 00:02:27.833 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kartı son kullanma tarihi alanı doldurulur."}
+03-02-2025 00:02:27.833 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kartı son kullanma tarihi alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kartı son kullanma tarihi alanı doldurulur."}}
+03-02-2025 00:02:27.834 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kredi kartı CVV alanı doldurulur."}
+03-02-2025 00:02:27.834 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kredi kartı CVV alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kredi kartı CVV alanı doldurulur."}}
+03-02-2025 00:02:27.834 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki miktar alanı doldurulur."}
+03-02-2025 00:02:27.834 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki miktar alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki miktar alanı doldurulur."}}
+03-02-2025 00:02:27.834 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Ekle butonuna tıklanır."}
+03-02-2025 00:02:27.834 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Ekle butonuna tıklanır."  parameterizedStepValue:"Ekle butonuna tıklanır."}}
+03-02-2025 00:02:27.834 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme işleminin işlemler listesinde olduğu ve eklenen paranın hesaba eklendiği doğrulanır."}
+03-02-2025 00:02:27.834 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme işleminin işlemler listesinde olduğu ve eklenen paranın hesaba eklendiği doğrulanır."  parameterizedStepValue:"Para Ekleme işleminin işlemler listesinde olduğu ve eklenen paranın hesaba eklendiği doğrulanır."}}
+03-02-2025 00:02:28.921 [Gauge] [DEBUG] Validation completed.
+03-02-2025 00:02:28.922 [Gauge] [DEBUG] Run started
+03-02-2025 00:02:28.922 [Gauge] [DEBUG] Starting Html Report plugin
+03-02-2025 00:02:28.963 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-02-2025 00:02:28.963 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 64339
+03-02-2025 00:02:28.969 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 64339
+03-02-2025 00:02:28.969 [Gauge] [DEBUG] Initialising suite data store.
+03-02-2025 00:02:29.381 [java] [INFO] 2025-02-03 00:02:29.380 java[16178:593207] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+03-02-2025 00:02:30.188 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-02-2025 00:02:30.195 [html-report] [INFO] Successfully generated html-report to => /Applications/IntelliJ IDEA CE.app/Contents/Projects/MoneyTransferWebAutomationProject/reports/html-report/index.html
+03-02-2025 00:02:30.195 [html-report] [DEBUG] Done generating HTML report using theme from /Users/n100523/.gauge/plugins/html-report/4.3.1/themes/default
+03-02-2025 00:02:30.195 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-02-2025 00:02:30.196 [Gauge] [DEBUG] Sending kill message to runner.
+03-02-2025 00:02:30.235 [Gauge] [INFO] Closing connection [127.0.0.1:64336] cause: EOF
+03-02-2025 00:02:30.297 [Gauge] [DEBUG] Runner with PID:16174 has exited
+03-02-2025 00:02:30.297 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+03-02-2025 00:02:30.297 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+03-02-2025 00:02:30.297 [Gauge] [INFO] 
+Total time taken: 1.265s
+03-02-2025 00:02:30.298 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+03-02-2025 00:04:21.910 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Applications/IntelliJ IDEA CE.app/Contents/Projects/MoneyTransferWebAutomationProject/.gauge/screenshots
+03-02-2025 00:04:21.910 [Gauge] [DEBUG] Plugin java is already installed.
+03-02-2025 00:04:21.910 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-02-2025 00:04:21.911 [Gauge] [DEBUG] Parsing started.
+03-02-2025 00:04:21.911 [Gauge] [DEBUG] Started concepts parsing.
+03-02-2025 00:04:21.913 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-02-2025 00:04:21.913 [Gauge] [DEBUG] Started specifications parsing.
+03-02-2025 00:04:21.915 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-02-2025 00:04:21.915 [Gauge] [DEBUG] Parsing completed.
+03-02-2025 00:04:21.916 [Gauge] [DEBUG] Starting java runner
+03-02-2025 00:04:22.266 [Gauge] [DEBUG] Established connection to runner.
+03-02-2025 00:04:22.266 [Gauge] [DEBUG] Validation started.
+03-02-2025 00:04:22.852 [Gauge] [DEBUG] Checking updates...
+03-02-2025 00:04:22.853 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+03-02-2025 00:04:23.090 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+03-02-2025 00:04:23.164 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+03-02-2025 00:04:23.382 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+03-02-2025 00:04:23.453 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+03-02-2025 00:04:23.526 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+03-02-2025 00:04:23.604 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=arm64
+03-02-2025 00:04:24.252 [java] [INFO] WARNING: An illegal reflective access operation has occurred
+03-02-2025 00:04:24.252 [java] [INFO] WARNING: Illegal reflective access by com.google.protobuf.UnsafeUtil (file:/Users/n100523/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar) to field java.nio.Buffer.address
+03-02-2025 00:04:24.252 [java] [INFO] WARNING: Please consider reporting this to the maintainers of com.google.protobuf.UnsafeUtil
+03-02-2025 00:04:24.252 [java] [INFO] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+03-02-2025 00:04:24.252 [java] [INFO] WARNING: All illegal access operations will be denied in a future release
+03-02-2025 00:04:24.256 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Tranferi İşlemleri listesinde işlemin oluduğu ve transfer edilen miktar kadar paranın hesaptan eksildiği doğrulanır."}
+03-02-2025 00:04:24.256 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Tranferi İşlemleri listesinde işlemin oluduğu ve transfer edilen miktar kadar paranın hesaptan eksildiği doğrulanır."  parameterizedStepValue:"Para Tranferi İşlemleri listesinde işlemin oluduğu ve transfer edilen miktar kadar paranın hesaptan eksildiği doğrulanır."}}
+03-02-2025 00:04:24.260 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Ekleme butonuna tıklanır."}
+03-02-2025 00:04:24.260 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Ekleme butonuna tıklanır."  parameterizedStepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Ekleme butonuna tıklanır."}}
+03-02-2025 00:04:24.260 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Açılan Para Transferi pencerisinde miktar metin kutusuna yazılır."}
+03-02-2025 00:04:24.260 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna yazılır."  parameterizedStepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna yazılır."}}
+03-02-2025 00:04:24.260 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Gönder butonuna tıklanır."}
+03-02-2025 00:04:24.260 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Gönder butonuna tıklanır."  parameterizedStepValue:"Gönder butonuna tıklanır."}}
+03-02-2025 00:04:24.260 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Hesap isminin yeni hesap ismi olarak güncellendiği doğrulanır."}
+03-02-2025 00:04:24.260 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Hesap isminin yeni hesap ismi olarak güncellendiği doğrulanır."  parameterizedStepValue:"Hesap isminin yeni hesap ismi olarak güncellendiği doğrulanır."}}
+03-02-2025 00:04:24.260 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır."}
+03-02-2025 00:04:24.260 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır."  parameterizedStepValue:"Mevcut açık hesaptaki para miktarı kaydedilir ve Para Transferi butonuna tıklanır."}}
+03-02-2025 00:04:24.261 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Açılan pencerede hesap ismi yeni hesap ismi rastgele değer olarak değiştirilmek üzere metin kutusuna yazılır."}
+03-02-2025 00:04:24.261 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Açılan pencerede hesap ismi yeni hesap ismi rastgele değer olarak değiştirilmek üzere metin kutusuna yazılır."  parameterizedStepValue:"Açılan pencerede hesap ismi yeni hesap ismi rastgele değer olarak değiştirilmek üzere metin kutusuna yazılır."}}
+03-02-2025 00:04:24.261 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Penceredeki güncelleme butonuna tıklanır."}
+03-02-2025 00:04:24.261 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Penceredeki güncelleme butonuna tıklanır."  parameterizedStepValue:"Penceredeki güncelleme butonuna tıklanır."}}
+03-02-2025 00:04:24.261 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Açılan Para Transferi pencerisinde miktar metin kutusuna mevcut para miktarında fazla bir değer yazılır."}
+03-02-2025 00:04:24.261 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna mevcut para miktarında fazla bir değer yazılır."  parameterizedStepValue:"Açılan Para Transferi pencerisinde miktar metin kutusuna mevcut para miktarında fazla bir değer yazılır."}}
+03-02-2025 00:04:24.261 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Transfer Uygulaması başarılı şekilde açıldığı doğrulanır."}
+03-02-2025 00:04:24.261 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Transfer Uygulaması başarılı şekilde açıldığı doğrulanır."  parameterizedStepValue:"Para Transfer Uygulaması başarılı şekilde açıldığı doğrulanır."}}
+03-02-2025 00:04:24.261 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Checking Account (Vadesiz Hesap) ismin düzenlemesi için hesap düzenleme butonuna tıklanır."}
+03-02-2025 00:04:24.261 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Checking Account (Vadesiz Hesap) ismin düzenlemesi için hesap düzenleme butonuna tıklanır."  parameterizedStepValue:"Checking Account (Vadesiz Hesap) ismin düzenlemesi için hesap düzenleme butonuna tıklanır."}}
+03-02-2025 00:04:24.261 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Tranferinin gerçekleşmediği ve hesap miktarını aynı kaldığı görülür."}
+03-02-2025 00:04:24.261 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Tranferinin gerçekleşmediği ve hesap miktarını aynı kaldığı görülür."  parameterizedStepValue:"Para Tranferinin gerçekleşmediği ve hesap miktarını aynı kaldığı görülür."}}
+03-02-2025 00:04:24.261 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Transfer Uygulaması başlatma sayfası açılır."}
+03-02-2025 00:04:24.262 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Transfer Uygulaması başlatma sayfası açılır."  parameterizedStepValue:"Para Transfer Uygulaması başlatma sayfası açılır."}}
+03-02-2025 00:04:24.262 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kredi kartı numara alanı test verisi ile doldurulur."}
+03-02-2025 00:04:24.262 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kredi kartı numara alanı test verisi ile doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kredi kartı numara alanı test verisi ile doldurulur."}}
+03-02-2025 00:04:24.262 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır."}
+03-02-2025 00:04:24.262 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır."  parameterizedStepValue:"Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır."}}
+03-02-2025 00:04:24.262 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kredi kartı sahibi alanı doldurulur."}
+03-02-2025 00:04:24.262 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kredi kartı sahibi alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kredi kartı sahibi alanı doldurulur."}}
+03-02-2025 00:04:24.262 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kartı son kullanma tarihi alanı doldurulur."}
+03-02-2025 00:04:24.262 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kartı son kullanma tarihi alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kartı son kullanma tarihi alanı doldurulur."}}
+03-02-2025 00:04:24.262 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki kredi kartı CVV alanı doldurulur."}
+03-02-2025 00:04:24.263 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki kredi kartı CVV alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki kredi kartı CVV alanı doldurulur."}}
+03-02-2025 00:04:24.263 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme penceresindeki miktar alanı doldurulur."}
+03-02-2025 00:04:24.263 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme penceresindeki miktar alanı doldurulur."  parameterizedStepValue:"Para Ekleme penceresindeki miktar alanı doldurulur."}}
+03-02-2025 00:04:24.263 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Ekle butonuna tıklanır."}
+03-02-2025 00:04:24.263 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Ekle butonuna tıklanır."  parameterizedStepValue:"Ekle butonuna tıklanır."}}
+03-02-2025 00:04:24.263 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Para Ekleme işleminin işlemler listesinde olduğu ve eklenen paranın hesaba eklendiği doğrulanır."}
+03-02-2025 00:04:24.263 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Para Ekleme işleminin işlemler listesinde olduğu ve eklenen paranın hesaba eklendiği doğrulanır."  parameterizedStepValue:"Para Ekleme işleminin işlemler listesinde olduğu ve eklenen paranın hesaba eklendiği doğrulanır."}}
+03-02-2025 00:04:25.320 [Gauge] [DEBUG] Validation completed.
+03-02-2025 00:04:25.320 [Gauge] [DEBUG] Run started
+03-02-2025 00:04:25.320 [Gauge] [DEBUG] Starting Html Report plugin
+03-02-2025 00:04:25.360 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-02-2025 00:04:25.360 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 64370
+03-02-2025 00:04:25.364 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 64370
+03-02-2025 00:04:25.364 [Gauge] [DEBUG] Initialising suite data store.
+03-02-2025 00:04:25.378 [java] [INFO] driver == null
+03-02-2025 00:04:25.383 [java] [INFO] SLF4J: No SLF4J providers were found.
+03-02-2025 00:04:25.383 [java] [INFO] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-02-2025 00:04:25.383 [java] [INFO] SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+03-02-2025 00:04:27.377 [java] [INFO] Feb 03, 2025 12:04:27 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+03-02-2025 00:04:27.377 [java] [INFO] INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+03-02-2025 00:04:27.412 [java] [INFO] log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+03-02-2025 00:04:27.412 [java] [INFO] log4j:WARN Please initialize the log4j system properly.
+03-02-2025 00:04:27.412 [java] [INFO] log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+03-02-2025 00:04:34.350 [java] [INFO] Feb 03, 2025 12:04:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+03-02-2025 00:04:34.351 [java] [INFO] WARNING: Unable to find CDP implementation matching 132
+03-02-2025 00:04:34.351 [java] [INFO] Feb 03, 2025 12:04:34 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+03-02-2025 00:04:34.351 [java] [INFO] WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.10.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+03-02-2025 00:04:34.390 [java] [INFO] Rapor yolu: /Applications/IntelliJ IDEA CE.app/Contents/Projects/MoneyTransferWebAutomationProject/reports/extent-report.html
