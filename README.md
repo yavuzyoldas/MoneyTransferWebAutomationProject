@@ -66,6 +66,6 @@ Belirli bir tag ile çalıştırmak için (örneğin smokeTest):
 
 
 
-## Test Raporları
+## 📄Test Raporları
 
 Testler çalıştırıldığında ExtentReports kullanılarak kapsamlı raporlar oluşturulacaktır. Bu raporlar, her testin başarısı, başarısızlık durumu ve testin tamamlanma zamanı gibi önemli verileri içermektedir. Rapora proje dizininde bulunan test-output klasöründen erişebilirsiniz.
