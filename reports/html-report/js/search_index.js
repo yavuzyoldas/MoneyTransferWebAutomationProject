@@ -1,1 +1,1 @@
-var index = {"Tags":{"single word":["specs/MoneyTransferWebAppTestScenarios.html"]},"Specs":{"Specification Heading":["specs/MoneyTransferWebAppTestScenarios.html"]}};
+var index = {"Tags":{"moneytranfer":["specs/MoneyTransferWebAppTestScenarios.html"],"start":["specs/MoneyTransferWebAppTestScenarios.html"],"test1":["specs/MoneyTransferWebAppTestScenarios.html"]},"Specs":{"Para Transfer Uygulaması Test Senaryoları":["specs/MoneyTransferWebAppTestScenarios.html"]}};

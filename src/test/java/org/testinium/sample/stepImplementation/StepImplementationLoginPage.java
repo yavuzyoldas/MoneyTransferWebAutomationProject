@@ -12,7 +12,7 @@ public class StepImplementationLoginPage {
     }
 
 
-    @Step("Money Transfer PreCondition")
+    @Step("Para Transfer Uygulaması başlatma işlemi için oturum açma ön koşulu sağlanır.")
     public void implementation1() {
         loginPage.login();
     }

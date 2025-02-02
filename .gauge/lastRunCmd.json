@@ -4,5 +4,7 @@
 	"--machine-readable",
 	"--hide-suggestion",
 	"--simple-console",
-	"/Applications/IntelliJ IDEA CE.app/Contents/Projects/MoneyTransferWebAutomationProject/specs/MoneyTransferWebAppTestScenarios.spec:11"
+	"--tags",
+	"test1",
+	"/Applications/IntelliJ IDEA CE.app/Contents/Projects/MoneyTransferWebAutomationProject/specs/MoneyTransferWebAppTestScenarios.spec"
 ]
