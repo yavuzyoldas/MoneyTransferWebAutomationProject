@@ -1,5 +1,6 @@
 package org.testinium.sample.pages;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testinium.sample.base.DriverFactory;
@@ -47,7 +48,7 @@ public class StartPage {
 
         elementHelper.waitVisibilityOfElementLocated(moneyAppPageUIElements.transactionsText);
 
-        assertTrue(elementHelper.isDisplayedElement(moneyAppPageUIElements.transactionsText));
+        Assert.assertTrue(elementHelper.isDisplayedElement(moneyAppPageUIElements.transactionsText));
 
     }
 

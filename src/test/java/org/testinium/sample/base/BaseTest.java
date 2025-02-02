@@ -1,47 +1,65 @@
 package org.testinium.sample.base;
 
+import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.thoughtworks.gauge.*;
 import org.openqa.selenium.WebDriver;
 import org.testinium.sample.util.ExtentManager;
 
-import static com.thoughtworks.gauge.Specification.*;
+import java.util.Locale;
 
 
 public class BaseTest {
 
+    static {
+        Locale.setDefault(Locale.ENGLISH);
+    }
     public WebDriver driver;
 
-    private ExtentTest test;
+    protected ExtentTest test;
+    private ExtentReports extent;
 
     @BeforeSpec
-    public void setUp()  {
+    public void beforeSpec()  {
 
         driver = DriverFactory.getDriver("chrome");
 
 
 
 
+
     }
     @BeforeScenario
-    public void beforeScenario( ) {
+    public void beforeScenario(ExecutionContext context) {
+        extent = ExtentManager.getInstance();  // Önce ExtentReports başlat
+        String scenarioName = context.getCurrentScenario().getName();
 
+        test = ExtentManager.createTest("Scenario is started" + scenarioName);  // Test oluştur
 
-        /*test = ExtentManager.createTest("Scenario: " + scenario.getName());
-        test.log(Status.INFO, "Scenario started.");*/
+        if (test == null) {
+            System.out.println("HATA: ExtentTest nesnesi null!");
+        } else {
+            test.log(Status.INFO, "Scenario started.");
+        }
+
     }
 
     @AfterScenario
     public void afterScenario( ) {
-        /*if (test != null) {
+        System.out.println("flushReport1");
+        if (test != null) {
+            System.out.println("flushReport2");
+
             test.log(Status.INFO, "Scenario completed.");
-            ExtentManager.flushReport();
-        }*/
+        }
+        ExtentManager.flushReport();
+        System.out.println("flushReport");
     }
 
     @AfterSpec
     public void tearDown() {
+
         DriverFactory.quitDriver();
     }
 

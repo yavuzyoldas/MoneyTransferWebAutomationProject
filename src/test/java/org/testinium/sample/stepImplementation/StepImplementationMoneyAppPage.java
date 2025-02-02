@@ -46,6 +46,7 @@ public class StepImplementationMoneyAppPage {
 
     @Step("Gönder butonuna tıklanır.")
     public void implementation7() {
+
         moneyAppPage.clickSendButton();
 
     }

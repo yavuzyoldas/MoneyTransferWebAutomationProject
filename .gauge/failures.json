@@ -3,11 +3,11 @@
 		"run",
 		"--machine-readable",
 		"--hide-suggestion",
-		"--simple-console",
-		"--tags",
-		"test1"
+		"--simple-console"
 	],
 	"FailedItems": [
-		"specs/MoneyTransferWebAppTestScenarios.spec:19"
+		"specs/MoneyTransferWebAppTestScenarios.spec:20",
+		"specs/MoneyTransferWebAppTestScenarios.spec:28",
+		"specs/MoneyTransferWebAppTestScenarios.spec:41"
 	]
 }

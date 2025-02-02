@@ -1,8 +1,11 @@
 package org.testinium.sample.pages;
 
+import com.aventstack.extentreports.MediaEntityBuilder;
 import junit.framework.TestCase;
+import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testinium.sample.base.BaseTest;
 import org.testinium.sample.base.DriverFactory;
 import org.testinium.sample.uiElements.MoneyAppPageUIElements;
 import org.testinium.sample.util.ElementHelper;
@@ -15,7 +18,7 @@ import static org.testinium.sample.util.UtilFunctions.convertStringToDouble;
 import static org.testinium.sample.util.UtilFunctions.generateRandomString;
 
 
-public class MoneyAppPage {
+public class MoneyAppPage extends BaseTest {
 
 
     MoneyAppPageUIElements moneyAppPageUIElements;
@@ -37,7 +40,14 @@ public class MoneyAppPage {
 
     public void clickAccountNameEditButton() {
 
-        elementHelper.click(moneyAppPageUIElements.editAccountButton);
+
+        try {
+            elementHelper.click(moneyAppPageUIElements.editAccountButton);
+            //test.pass("Add money button clicked successfully");
+        } catch (Exception e) {
+            test.fail("Failed to click the Add money button: " + e.getMessage(),
+                    MediaEntityBuilder.createScreenCaptureFromPath("screenshot.png").build());
+        }
     }
 
 
@@ -58,7 +68,7 @@ public class MoneyAppPage {
 
         elementHelper.waitVisibilityOfElementLocated(newAccountName);
 
-        assertTrue(elementHelper.isDisplayedElement(newAccountName));
+        Assert.assertTrue(elementHelper.isDisplayedElement(newAccountName));
 
     }
 
@@ -82,8 +92,14 @@ public class MoneyAppPage {
 
     public void clickSendButton() {
 
-        elementHelper.interactionWithJS(moneyAppPageUIElements.moneyTransferSendButton);
-        elementHelper.clickWithJS(moneyAppPageUIElements.moneyTransferSendButton);
+        try {
+            elementHelper.interactionWithJS(moneyAppPageUIElements.moneyTransferSendButton);
+            elementHelper.clickWithJS(moneyAppPageUIElements.moneyTransferSendButton);
+        } catch (Exception e) {
+            test.fail("clickSendButton " + e.getMessage(),
+                    MediaEntityBuilder.createScreenCaptureFromPath("screenshot1.png").build());
+        }
+
 
 
 
@@ -142,7 +158,7 @@ public class MoneyAppPage {
 
 
 
-        TestCase.assertTrue(check1 && check2);
+        Assert.assertTrue(check1 && check2);
 
 
     }
@@ -260,7 +276,7 @@ public class MoneyAppPage {
             throw new RuntimeException(e);
         }
 
-        TestCase.assertTrue(check);
+        Assert.assertTrue(check);
 
 
 
